@@ -5372,7 +5372,7 @@
                                 },
                                 "text": "Hoodoo",
                                 "_id": "oracle_rollable.row:badlands/name/nickname/d.49"
-                            }
+                            },
                             {
                                 "roll": {
                                     "min": 51,
@@ -5780,7 +5780,774 @@
             }
         },
         "place":{},
-        "settlement": {},
+        "settlement": {
+            "name": "Badlands Settlement Oracles",
+            "type": "oracle_collection",
+            "_id": "oracle_collection:badlands/settlement",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 10
+            },
+            "contents": {
+                "name": {
+					"name": "Settlement Name",
+					"oracle_type": "table_text",
+					"type": "oracle_rollable",
+					"_source": {
+						"authors": [
+							{
+								"name": "Shawn Tomkin"
+							}
+						],
+						"title": "Ironsworn Rulebook",
+						"license": "https://creativecommons.org/licenses/by/4.0",
+						"url": "https://ironswornrpg.com",
+						"date": "2019-06-05",
+						"page": 178
+					},
+					"summary": "Ask this oracle for a thematic name for an Badlander settlement. Roll once for the category, and again to pick from the examples. Alternatively, just roll for the category and come up with a name that fits the theme.",
+					"rows": [
+						{
+							"roll": {
+								"min": 1,
+								"max": 8
+							},
+							"text": "An ominous name",
+							"embed_table": "oracle_rollable:badlands/settlement/name/ominous_name",
+							"oracle_rolls": [
+								{
+									"oracle": "oracle_rollable:badlands/settlement/name/ominous_name",
+									"dice": null,
+									"auto": false,
+									"duplicates": "reroll",
+									"number_of_rolls": 1
+								}
+							],
+							"_id": "oracle_rollable.row:badlands/settlement/name.0"
+						},
+						{
+							"roll": {
+								"min": 9,
+								"max": 15
+							},
+							"text": "An aspirational name",
+							"embed_table": "oracle_rollable:badlands/settlement/name/aspirational_name",
+							"oracle_rolls": [
+								{
+									"oracle": "oracle_rollable:badlands/settlement/name/aspirational_name",
+									"dice": null,
+									"auto": false,
+									"duplicates": "reroll",
+									"number_of_rolls": 1
+								}
+							],
+							"_id": "oracle_rollable.row:badlands/settlement/name.1"
+						},
+						{
+							"roll": {
+								"min": 16,
+								"max": 25
+							},
+							"text": "A word in another language",
+							"embed_table": "oracle_rollable:badlands/settlement/name/another_language",
+							"oracle_rolls": [
+								{
+									"oracle": "oracle_rollable:badlands/settlement/name/another_language",
+									"dice": null,
+									"auto": false,
+									"duplicates": "reroll",
+									"number_of_rolls": 1
+								}
+							],
+							"_id": "oracle_rollable.row:badlands/settlement/name.2"
+						},
+						{
+							"roll": {
+								"min": 15,
+								"max": 35
+							},
+							"text": "A borrowed name",
+							"embed_table": "oracle_rollable:badlands/settlement/name/borrowed_name",
+							"oracle_rolls": [
+								{
+									"oracle": "oracle_rollable:badlands/settlement/name/borrowed_name",
+									"dice": null,
+									"auto": false,
+									"duplicates": "reroll",
+									"number_of_rolls": 1
+								}
+							],
+							"_id": "oracle_rollable.row:classic/settlement/name.3"
+						},
+						{
+							"roll": {
+								"min": 36,
+								"max": 65
+							},
+							"text": "From a person's name",
+							"embed_table": "oracle_rollable:badlands/settlement/name/persons_name",
+							"oracle_rolls": [
+								{
+									"oracle": "oracle_rollable:badlands/settlement/name/persons_name",
+									"dice": null,
+									"auto": false,
+									"duplicates": "reroll",
+									"number_of_rolls": 1
+								}
+							],
+							"_id": "oracle_rollable.row:badlands/settlement/name.4"
+						},
+						{
+							"roll": {
+								"min": 66,
+								"max": 95
+							},
+							"text": "From a landscape feature",
+							"embed_table": "oracle_rollable:badlands/settlement/name/landscape_feature",
+							"oracle_rolls": [
+								{
+									"oracle": "oracle_rollable:badlands/settlement/name/landscape_feature",
+									"dice": null,
+									"auto": false,
+									"duplicates": "reroll",
+									"number_of_rolls": 1
+								}
+							],
+							"_id": "oracle_rollable.row:badlands/settlement/name.5"
+						},
+						{
+							"roll": {
+								"min": 96,
+								"max": 100
+							},
+							"text": "A combined name",
+							"embed_table": "oracle_rollable:badlands/settlement/name/combined_name",
+							"oracle_rolls": [
+								{
+									"oracle": "oracle_rollable:badlands/settlement/name/combined_name",
+									"auto": true,
+									"dice": null,
+									"duplicates": "reroll",
+									"number_of_rolls": 1
+								}
+							],
+							"_id": "oracle_rollable.row:badlands/settlement/name.6"
+						}
+					],
+					"dice": "1d100",
+					"column_labels": {
+						"roll": "Roll",
+						"text": "Result"
+					},
+					"_id": "oracle_rollable:badlands/settlement/name"
+				}
+            },
+            "collections": {
+                "name": {
+                    "name": "Settlement Name",
+                    "oracle_type": "tables",
+                    "type": "oracle_collection",
+                    "canonical_name": "Oracle 7: Settlement Name",
+                    "_source":{
+                        "authors":[
+                            {
+                                "name":"Keith Stetson"
+                            }
+                        ],
+                        "license":"https://creativecommons.org/licenses/by/4.0",
+                        "title":"Badlands Supplement",
+                        "date":"2020-07-22",
+                        "url":"https://kstetson.itch.io/ironsworn-badlands",
+                        "page":28
+                    },
+                    "contents": {
+                        "ominous_name": {
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "_id": "oracle_rollable:badlands/settlement/name/ominous_name",
+                            "dice": "1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 28
+                            },
+                            "name": "Ominous Name",
+                            "canonical_name": "An Ominous Name",
+                            "rows": [
+                                 {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 16
+                                    },
+                                    "text": "Nowhere",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/ominous_name.0"
+                                 },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 17,
+                                        "max": 32
+                                    },
+                                    "text": "Purgatory",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/ominous_name.1"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 33,
+                                        "max": 49
+                                    },
+                                    "text": "Vulture’s Roost",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/ominous_name.2"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 50,
+                                        "max": 66
+                                    },
+                                    "text": "Sepulchre",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/ominous_name.3"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 67,
+                                        "max": 83
+                                    },
+                                    "text": "End",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/ominous_name.4"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 84,
+                                        "max": 100
+                                    },
+                                    "text": "Perdition",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/ominous_name.5"
+                                }
+                            ]
+                        },
+                        "aspirational_name": {
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "_id": "oracle_rollable:badlands/settlement/name/aspirational_name",
+                            "dice": "1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 28
+                            },
+                            "name": "Aspirational Name",
+                            "canonical_name": "An Aspirational Name",
+                            "rows": [
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 16
+                                    },
+                                    "text": "Haven",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/aspirational_name.0"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 17,
+                                        "max": 32
+                                    },
+                                    "text": "Gateway",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/aspirational_name.1"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 33,
+                                        "max": 49
+                                    },
+                                    "text": "Elysium",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/aspirational_name.2"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 50,
+                                        "max": 66
+                                    },
+                                    "text": "Solace",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/aspirational_name.3"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 67,
+                                        "max": 83
+                                    },
+                                    "text": "Oasis",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/aspirational_name.4"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 84,
+                                        "max": 100
+                                    },
+                                    "text": "Worry’s End",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/aspirational_name.5"
+                                }
+                            ]
+                        },
+                        "another_language": {
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "_id": "oracle_rollable:badlands/settlement/name/another_language",
+                            "dice": "1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 28
+                            },
+                            "name": "Another Language",
+                            "canonical_name": "A Name in Another Language",
+                            "rows": [
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 16
+                                    },
+                                    "text": "Polvito",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/another_language.0"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 17,
+                                        "max": 32
+                                    },
+                                    "text": "Löschen",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/another_language.1"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 33,
+                                        "max": 49
+                                    },
+                                    "text": "Lacs Vides",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/another_language.2"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 50,
+                                        "max": 66
+                                    },
+                                    "text": "E a Toop",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/another_language.3"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 67,
+                                        "max": 83
+                                    },
+                                    "text": "Caoyuan",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/another_language.4"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 84,
+                                        "max": 100
+                                    },
+                                    "text": "Volov",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/another_language.5"
+                                }
+                            ]
+                        },
+                        "borrowed_name": {
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "_id": "oracle_rollable:badlands/settlement/name/borrowed_name",
+                            "dice": "1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 28
+                            },
+                            "name": "Borrowed Name",
+                            "canonical_name": "A Borrowed Name",
+                            "rows": [
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 50
+                                    },
+                                    "text": "A name borrowed directly from a [Famous Place]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/borrowed_name.0"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 51,
+                                        "max": 68
+                                    },
+                                    "text": "A mispronounced [Famous Place]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/borrowed_name.1"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 69,
+                                        "max": 85
+                                    },
+                                    "text": "New + [Famous Place]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/borrowed_name.2"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 86,
+                                        "max": 100
+                                    },
+                                    "text": "West + [Famous Place]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/borrowed_name.3"
+                                }
+                            ]
+                        },
+                        "persons_name": {
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "_id": "oracle_rollable:badlands/settlement/name/persons_name",
+                            "dice": "1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 28
+                            },
+                            "name": "Person's Name",
+                            "canonical_name": "A Person's Name",
+                            "rows": [
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 25
+                                    },
+                                    "text": "[Name]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/persons_name.0"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 26,
+                                        "max": 50
+                                    },
+                                    "text": "[Name] + [Feature]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/persons_name.1"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 51,
+                                        "max": 75
+                                    },
+                                    "text": "[Name] + [Suffix]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/persons_name.2"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 76,
+                                        "max": 100
+                                    },
+                                    "text": "Ft./St. + [Name]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/persons_name.3"
+                                }
+                            ]
+                        },
+                        "landscape_feature": {
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "_id": "oracle_rollable:badlands/settlement/name/landscape_feature",
+                            "dice": "1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 28
+                            },
+                            "name": "Landscape Feature",
+                            "canonical_name": "A Landscape Feature",
+                            "rows": [
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 40
+                                    },
+                                    "text": "[Descriptor] + [Feature]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/landscape_feature.0"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 41,
+                                        "max": 80
+                                    },
+                                    "text": "[Animal] + [Feature]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/landscape_feature.1"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 81,
+                                        "max": 100
+                                    },
+                                    "text": "[Commodity] + [Feature]",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/landscape_feature.2"
+                                }
+                            ]
+                        },
+                        "combined_name": {
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "_id": "oracle_rollable:badlands/settlement/name/combined_name",
+                            "dice": "1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 28
+                            },
+                            "name": "Combined Name",
+                            "canonical_name": "A Combined Name",
+                            "rows": [
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 100
+                                    },
+                                    "text": "New/West/St./Ft. + (roll above for other name)",
+                                    "_id": "oracle_rollable.row:badlands/settlement/name/combined_name.0"
+                                }
+                            ]
+                        }
+                    },
+                    "collections": {},
+                    "_id": "oracle_collection:badlands/settlement/name"
+
+                }
+            }
+        },
         "turning_point": {}
     },
     "moves":{
