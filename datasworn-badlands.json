@@ -1,5 +1,6 @@
 {
 	"_id": "badlands",
+    "$schema": "https://raw.githubusercontent.com/rsek/datasworn/refs/heads/v0.1.0/datasworn/datasworn.schema.json",
 	"datasworn_version": "0.1.0",
 	"type": "ruleset",
 	"title": "Badlands Setting",
@@ -15,6 +16,8 @@
 		"combat_talent": {
 			"name": "Combat Talent Assets",
 			"type": "asset_collection",
+            "_id": "asset_collection:badlands/combat_talent",
+            "collections": {},
 			"_source": {
 				"authors": [
 					{
@@ -134,7 +137,12 @@
 							"moves": {},
 							"_id": "asset.ability:badlands/combat_talent/pistoleer.2"
 						}
-					]
+					],
+                    "options": {},
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "_id": "asset:badlands/combat_talent/pistoleer"
 				},
 				"sharpshooter": {
 					"type": "asset",
@@ -236,7 +244,12 @@
 							"moves": {},
 							"_id": "asset.ability:classic/combat_talent/sharpshooter.2"
 						}
-					]
+					],
+                    "options": {},
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "_id": "asset:badlands/combat_talent/sharpshooter"
 				},
 				"shotgunner": {
 					"type": "asset",
@@ -308,7 +321,12 @@
 							"moves": {},
 							"_id": "asset.ability:classic/combat_talent/shotgunner.2"
 						}
-					]
+					],
+                    "options": {},
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "_id": "asset:badlands/combat_talent/shotgunner"
 				},
 				"two_fisted": {
 					"type": "asset",
@@ -390,13 +408,20 @@
 							"moves": {},
 							"_id": "asset.ability:badlands/combat_talent/two_fisted.2"
 						}
-					]
+					],
+                    "options": {},
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "_id": "asset:badlands/combat_talent/two_fisted"
 				}
 			}	
 		},
 		"path": {
 			"name": "Path Assets",
 			"type": "asset_collection",
+            "_id": "asset_collection:badlands/path",
+            "collections": {},
 			"_source": {
 				"authors": [
 					{
@@ -1127,6 +1152,7 @@
 					"count_as_impact": false,
 					"shared": false,
 					"controls": {},
+                    "options": {},
 					"_id": "asset:badlands/path/gambler"
 				},
 				"notorious": {
@@ -1232,6 +1258,7 @@
 					"count_as_impact": false,
 					"shared": false,
 					"controls": {},
+                    "options": {},
 					"_id": "asset:badlands/path/notorious"
 				},
 				"peacemaker": {
@@ -1344,7 +1371,12 @@
 							"moves": {},
 							"_id": "asset.ability:badlands/path/peacemaker.2"
 						}
-					]
+					],
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "options": {},
+                    "_id": "asset:badlands/path/peacemaker"
 				},
 				"prospector": {
 					"type":"asset",
@@ -1364,15 +1396,545 @@
 					"name":"Prospector",
 					"abilities": [
 						{
-							
-						}
-					]
-
-				}
+							"text": "When you [Resupply](datasworn:move:classic/adventure/resupply) in the wild, add +1 and take -1 momentum on a hit.",
+                            "enabled": true,
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/adventure/resupply"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "in the wild",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/prospector.0"
+						},
+                        {
+                            "text": "On any move result that would allow you to add supply, you may add additional supply 1-for-1 by sacrificing health, spirit or momentum as you sacrifice your well-being for material gain.",
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/prospector.1"
+                        },
+                        {
+                            "text": "When you are [Out of Supply](datasworn:move:classic/suffer/out_of_supply) and would mark unprepared, instead roll +wits. On a hit, move your supply to +1. On a strong hit, also take +1 momentum",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/suffer/out_of_supply"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "and would mark unprepared",
+                                                "roll_options": [
+                                                    {
+                                                        "using": "stat",
+                                                        "stat": "wits"
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "outcomes": {
+                                            "strong_hit": {
+                                                "text": "On a __strong hit__, also take +1 momentum."
+                                            },
+                                            "hit": {
+                                                "text": "On a __hit__, move your supply to +1."
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/prospector.2"
+                        }
+					],
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "options": {},
+                    "_id": "asset:badlands/path/prospector"
+				},
+                "sawbones": {
+                    "type":"asset",
+                    "category":"Path",
+                    "_source":{
+                        "authors":[
+                            {
+                                "name":"Keith Stetson"
+                            }
+                        ],
+                        "license":"https://creativecommons.org/licenses/by/4.0",
+                        "title":"Badlands Supplement",
+                        "date":"2020-07-22",
+                        "url":"https://kstetson.itch.io/ironsworn-badlands",
+                        "page":12
+                    },
+                    "name":"Sawbones",
+                    "abilities": [
+                        {
+                            "text": "When you [Heal](datasworn:move:classic/health/heal) someone, choose one or both before rolling: \n\n * Give +1 additional health on a strong hit, but on a miss they [Endure Harm](datasworn:move:classic/suffer/endure_harm) (2 harm)\n * Give +1 additional health on a strong hit, but count a weak hit as a miss",
+                            "enabled": true,
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/health/heal"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "someone",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/sawbones.0"
+                        },
+                        {
+                            "text": "Spend supply 1-for-1 to give the patient whiskey to drink and a bullet to bite and add +1 to the above roll for each supply spent",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["asset.ability:badlands/path/sawbones.0"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "spend supply 1-for-1",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/sawbones.1"
+                        },
+                        {
+                            "text": "You may attempt to heal yourself, as above",
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/sawbones.2"
+                            
+                        }
+                    ],
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "options": {},
+                    "_id": "asset:badlands/path/sawbones"
+                },
+                "scribe": {
+                    "type": "asset",
+                    "category": "Path",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 12
+                    },
+                    "name": "Scribe",
+                    "abilities": [
+                        {
+                            "text": "When you [Gather Information](datasworn:move:classic/adventure/gather_information) you may reroll any dice. When using this information to [Compel](datasworn:move:classic/relationship/compel) others, add +1.",
+                            "enabled": true,
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/adventure/gather_information"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "When you gather information",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/relationship/compel"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "When using this information to compel others",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/scribe.0"
+                        },
+                        {
+                            "text": "When you publish a story that is… \n\n • Hopeful, roll +heart \n• Attacking, roll +iron \n• False, roll +shadow \n\n On a hit, your story accomplishes what you hoped it would. On a strong hit, also take +1 momentum. On a miss, your story is misinterpreted or perhaps understood all too well. [Pay the Price](datasworn:move:classic/fate/pay_the_price).",
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/scribe.1"
+                        },
+                        {
+                            "text": "Add the trigger “When someone has read a successful story of yours,” to [Forge a Bond](datasworn:move:classic/relationship/forge_a_bond). You need not have met this person",
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/scribe.2"
+                        }
+                    ],
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "options": {},
+                    "_id": "asset:badlands/path/scribe"
+                },
+                "vengeful": {
+                    "type": "asset",
+                    "category": "Path",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 12
+                    },
+                    "name": "Vengeful",
+                    "abilities": [
+                        {
+                            "text": "When you [Clash](datasworn:move:classic/combat/clash) or [Strike](datasworn:move:classic/combat/strike) against an enemy who has wounded you, add +1 and take +1 momentum on a hit.",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/combat/clash", "move:classic/combat/strike"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "against an enemy who has wounded you",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "enabled": true,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/vengeful.0"
+                        },
+                        {
+                            "text": "When you [Clash](datasworn:move:classic/combat/clash) or [Strike](datasworn:move:classic/combat/strike) at 0 health, take +2 momentum on a strong hit and +1 momentum on a weak hit",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/combat/clash", "move:classic/combat/strike"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "at 0 health",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ],
+                                        "outcomes": {
+                                            "strong_hit": {
+                                                "text": "On a __strong hit__, take +2 momentum."
+                                            },
+                                            "weak_hit": {
+                                                "text": "On a __weak hit__, take +1 momentum."
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/vengeful.1"
+                        }, 
+                        {
+                            "text": "When you [Swear an Iron Vow](datasworn:move:classic/quest/swear_an_iron_vow) for vengance, you may reroll any dice. When you [Fulfill Your Vow](datasworn:move:classic/quest/fulfill_your_vow) and mark experience, take +1 experience.",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/quest/swear_an_iron_vow"],
+                                },
+                                {
+                                    "roll_type": "progress_roll",
+                                    "enhances": ["move:classic/quest/fulfill_your_vow"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "for vengance",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/vengeful.2"
+                        }
+                    ],
+                    "options": {},
+                    "count_as_impact": false,
+                    "shared": false,
+                    "_id": "asset:badlands/path/vengeful"
+                },
+                "drifter": {
+                    "type": "asset",
+                    "category": "Path",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 12
+                    },
+                    "name": "Drifter",
+                    "abilities": [
+                        {
+                            "text": "When you reject assistance from a community or individual and instead [Face Danger](datasworn:move:classic/adventure/face_danger), [Secure an Advantage](datasworn:move:classic/adventure/secure_an_advantage or [Enter the Fray](datasworn:move:classic/combat/enter_the_fray) alone, add +1 and take +1 momentum on a hit. If you share a bond with your would-be assistant, you must also [Test Your Bond](datasworn:move:classic/relationship/test_your_bond) at +1.",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/adventure/face_danger", "move:classic/adventure/secure_an_advantage", "move:classic/combat/enter_the_fray"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "alone",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/relationship/test_your_bond"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "with your would-be assistant",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                                
+                            ],
+                            "enabled": true,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/drifter.0"
+                        },
+                        {
+                            "text": "When you [Endure Stress](datasworn:move:classic/suffer/endure_stress), your detached nature lets you roll +1 and take +1 momentum on a hit",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/suffer/endure_stress"]
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/drifter.1"
+                        },
+                        {
+                            "text": "When you would [Pay the Price](datasworn:move:classic/fate/pay_the_price) inside a town, you may instead leave town, promising not to return. This works once per town; should you return, the consequences would be dire",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/fate/pay_the_price"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "inside a town",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/drifter.2"
+                        }
+                    ],
+                    "options": {},
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "_id": "asset:badlands/path/drifter"
+                },
+                "marshal":{
+                    "type":"asset",
+                    "category":"Path",
+                    "_source":{
+                        "authors":[
+                            {
+                                "name":"Keith Stetson"
+                            }
+                        ],
+                        "license":"https://creativecommons.org/licenses/by/4.0",
+                        "title":"Badlands Supplement",
+                        "date":"2020-07-22",
+                        "url":"https://kstetson.itch.io/ironsworn-badlands",
+                        "page":12
+                    },
+                    "name":"Marshal",
+                    "abilities": [
+                        {
+                            "text": "When you use the force of the law to [Compel](datasworn:move:classic/relationship/compel) or [Secure an Advantage](datasworn:move:classic/adventure/secure_an_advantage), add +1 and take +1 momentum on a hit. If you use this to arrest a lawbreaker, you may choose to reroll any dice, but count a weak hit as a miss",
+                            "enabled": true,
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/relationship/compel", "move:classic/adventure/secure_an_advantage"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "use force of the law",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/marshal.0"
+                        },
+                        {
+                            "text": "When you burn momentum to [Gather Information](datasworn:move:classic/adventure/gather_information), envision how your training allows you to persist through the dead ends. Then, take +2 momentum after you reset.",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/adventure/gather_information"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "burn momentum",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/marshal.1"
+                        },
+                        {
+                            "text": "When you [Swear an Iron Vow](datasworn:move:classic/quest/swear_an_iron_vow to uphold the law, you may deputize one other individual. For the duration of the vow: \n\n * An ally may use your unlocked Marshal abilities and add +1 to [Aid Your Ally](datasworn:move:classic/relationship/aid_your_ally) when assisting you. \n* An NPC counts as a Kindred asset with one unlocked ability.",
+                            "enhance_moves": [
+                                {
+                                    "roll_type": "action_roll",
+                                    "enhances": ["move:classic/quest/swear_an_iron_vow"],
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "to uphold the law",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/path/marshal.2"
+                        }
+                    ],
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "options": {},
+                    "_id":"asset:badlands/path/marshal"
+                }
 			}
 		}
 	}
-
-
-
 }
