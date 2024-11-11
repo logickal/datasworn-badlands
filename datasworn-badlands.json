@@ -2433,6 +2433,182 @@
                     "quest_starter": "A well organized gang of bandits have made it their job to rob the Badlands many trains. They have been getting more violent, and more than money is at risk now. How will you stop these bandits? Or will you join them?"
                 }
             ]
+        },
+        "beasts": {
+            "name": "Beasts",
+            "type": "truth",
+            "_id": "truth:badlands/beasts",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 6
+            },
+            "options": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "While folks Back East would think every critter out here is fearsome, there’s nothing roaming these lands anymore that a Badlander would find unusual. Anyone who says different is just telling tales.",
+                    "quest_starter": "You were witness to an attack by what you thought was an animal of monstrous proportions. No one believes you. In fact, you are accused of the murder you blame on this beast. How can you prove your innocence? Can you even trust your own memories of the event?"
+                },
+                {
+                    "roll": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "There are frightful beasts that slither, stalk and stampede throughout the wilds of the Badlands. They ain’t exactly common, but they ain’t exactly as rare as some folks might hope.",
+                    "quest_starter": "A prominent Badlander is consumed with the need to bring vengeance upon a specific beast. What makes this creature distinctive? How did it earn the wrath of this Badlander? Do you aid this person in their quest, or act to prevent their blind hate from destroying more than just the beast?"
+                },
+                {
+                    "roll": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "Beasts of all sorts roam the Badlands. They dwell primarily in the reaches, but range into the settled lands to hunt. There, they often prey on cattle, but attacks on travelers, coaches, or even settlements are not uncommon.",
+                    "quest_starter": "Professional slayers earn their keep by killing beasts. This particular slayer, famed throughout the Ironlands for their numerous kills, has gone missing on a hunt. Did they finally meet their match, or is something more nefarious at play. What is your connection to them?"
+                }
+            ]
+        },
+        "guns": {
+            "name": "Guns",
+            "type": "truth",
+            "_id": "truth:badlands/guns",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 6
+            },
+            "options": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "Shooting irons are rare and precious. If a body owns one, it’s likely the most expensive possession they have, and they’re not liable to let it out of their sight.",
+                    "quest_starter": "A prominent member of your steading has had their gun go missing - one of the few guns around. You have been tasked with finding and retrieving it. But it is an awfully nice piece, and once you find it, who could stop you from keeping it?"
+                },
+                {
+                    "roll": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "Guns are tools. Most folk who work dangerous jobs keep them, but those in more pacific professions have no need of them.",
+                    "quest_starter": "An acquaintance of yours who normally carries was caught in a bad spot without their shooting iron. What were the consequences? How do you aim to rectify the situation? And why weren’t they carrying in the first place?"
+                },
+                {
+                    "roll": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "Rare is the Badlander who isn’t carrying iron, and if you draw down on someone you best expect them to draw back.",
+                    "quest_starter": "No one is sure what the spark was that lit the fuse, but someone said or did something untoward and now several bodies are cooling in the town square. Who has asked you to get to the bottom of it and enact the proper justice? Who opposes your efforts? Why might they be right to do so?"
+                }
+            ]
+        },
+        "the_law": {
+            "name": "The Law",
+            "type": "truth",
+            "_id": "truth:badlands/the_law",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 7
+            },
+            "options": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "Things in the Badlands ain’t nearly as chaotic as those Back East would have you believe. For the most part folks follow the law, and at least out here we’ve got honest criminals, not besuited businessmen robbing folks with a fountain pen.", 
+                    "quest_starter": "Someone you know who usually walks the straight and narrow has suddenly committed a criminal act and issought by the law. What did they (allegedly) do? Do you aim to help hide them, help find them, or take another tack?"
+                },
+                {
+                    "roll" : {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "Crime ain’t exactly rare here in the Badlands. Folks are just about as likely to do what they wish as what they ought, regardless of what might be written down on a piece of paper.",
+                    "quest_starter": "They say it ain’t a crime if you don’t get caught, and you didn’t. But now the ramifications of your seemingly inconsequential act are becoming clear, and you’re starting to get caught in your own conscience. But now it might be too late. What did you do, and how can you make it right despite the long odds?"
+                },
+                {
+                    "roll": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "The Badlands truly is the Wild West. The only law out here is your will imposed upon another person. Lawbreakers are just as common, if not moreso, than law abiders.",
+                    "quest_starter": "A noted gunfighter has styled themselves a self-appointed Marshal and aims to bring law and order to the county. Could this plan ever be successful? Do you aim to help or hinder their efforts? And don’t you have as much claim to appoint yourself Marshal as they do?"
+                }
+            ]
+        },
+        "the_land": {
+            "name": "The Land",
+            "type": "truth",
+            "_id": "truth:badlands/the_land",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 7
+            },
+            "options": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "The Badlands are aptly named; there is nothing good here. It is a wasteland as brutal on the eyes as it is on the body, and survival is a constant battle.",
+                    "quest_starter": "Seems that a group of someones who ought to have known better founded a town where they shouldn’t have and are now reaping the consequences. It’s hard to tell if famine, drought, or predation will take them out first, but something sure will - unless you help. How do you plan to undo their poor decisions?"
+                },
+                {
+                    "roll": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "The Badlands are a cruel, but beguiling mistress. Gorgeous vistas and stunning sunsets belie the perils of the wide and dangerous land.",
+                    "quest_starter": "As beautiful as it is, the land can be deadly, especially if you end up in the wrong part. That’s why you’ve vowed to map the Badlands. What made you undertake such a vow? Are you working alone? How can you hope to complete it?"
+                },
+                {
+                    "roll": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "The Badlands are only dangerous if you’re as ignorant as a Back Easter. The landscape is downright verdant if you know where and how to look.",
+                    "quest_starter": "A well-heeled Back Easter has heard the siren song of the Badlands and is looking for a tour guide to its many wonders. Coin is coin, and how difficult could it be? Pretty difficult, it turns out. What mistakes does this tinhorn keep making, and why is it not so simple for you to leave their employ?"
+                }
+            ]    
         }
 
     }
