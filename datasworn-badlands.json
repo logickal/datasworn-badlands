@@ -1925,7 +1925,13 @@
 			}
 		}
 	},
-    "rules": {},
+    "rules": {
+        "stats": {},
+        "condition_meters": {},
+        "impacts": {},
+        "special_tracks": {},
+        "tags": {}
+    },
     "oracles": {},
     "moves":{
         "adventure": {
@@ -2149,7 +2155,285 @@
                 }
             },
             "collections": {},
-            "id": "move_category:badlands/relationship"
+            "_id": "move_category:badlands/relationship"
         }
+    },
+    "truths": {
+        "the_weird": {
+            "name": "The Weird",
+            "type": "truth",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 3
+            },
+            "options": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "Some speak of odd doings in the Badlands, but these are nothing but superstitions and old wives’ tales. People of reason know better.",
+                    "quest_starter": "Homesteaders a day’s ride out of town have been turning up dead. Local gossip suggests the murders are the work of a ghost or haunt, but there may be more mundane forces at work. What is your connection to these killings? What will you do to stop them?",
+                    "oracles": {},
+                    "_id": "truth.option:badlands/the_weird.0"
+                },
+                {
+                    "roll": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "Strange occurrences populate the land if you know where to look, and wary folks look elsewhere. Only the foolhardy would venture into the night alone and unarmed..",
+                    "quest_starter": "You bear the scars of an attack by an abomination. What was it? Are those scars physical, emotional, or both? How do you seek to make yourself whole again?",
+                    "oracles": {},
+                    "_id": "truth.option:badlands/the_weird.1"
+                },
+                {
+                    "roll": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "Horrors walk the land and it is only the naive or the lucky who could say otherwise. We must stand in constant defense against them.",
+                    "quest_starter": "A group of Badlanders establish a settlement in a territory cursed by a malevolent horror. What evil plagues this land? Why are the Badlanders so intent on settling here? Will you aid them, or attempt to force them to give up this foolish undertaking?",
+                    "oracles": {},
+                    "_id": "truth.option:badlands/the_weird.2"
+                }
+            ],
+            "dice": "1d100",
+            "_id": "truth:badlands/the_weird"
+        },
+        "exodus": {
+            "_id": "truth:badlands/exodus",
+            "name": "Exodus",
+            "type": "truth",
+            "dice":"1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 3
+            },
+            "options": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "The religious strictures Back East prevented us from worshipping as we wished. We came West seeking the freedom to pray as our god dictates",
+                    "quest_starter": "A missionary arrives in the community to prosthelytize for the old ways. Is it revulsion or fascination that draws you to their words? If the community takes offense at these sermons, how will you react?",
+                    "oracles": {},
+                    "_id": "truth.option:badlands/exodus.0"
+                },
+                {
+                    "roll": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "Mayors, councilmen, senators, governors and aldermen all had a hand in dictating how we should live Back East. We came West to organize our own politics to fit our way of life.",
+                    "quest_starter": "The vote for statehood is coming up and getting some strong support in many counties. How do you feel about joining the union? How will you ensure that your vision is the one that prevails?",
+                    "oracles": {},
+                    "_id": "truth.option:badlands/exodus.1"
+                },
+                {
+                    "roll": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "Back East the rich got richer and the poor got nothing. Out here in the Badlands everyone has a more-or-less equal chance to earn a good living, or even strike it big.",
+                    "quest_starter": "Land barons have been buying up cheap acreage and leasing it to those it was intended for. Who do you know that has been squeezed by this practice? What can you do to help them?"
+                }
+            ]
+        },
+        "native_peoples": {
+            "name": "Native Peoples",
+            "type": "truth",
+            "_id": "truth:badlands/native_peoples",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 4
+            },
+            "options": [
+                {
+                    "roll": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "Our forebears slaughtered and subjugated those who lived here before we came to the Badlands. Those who remain have been disenfranchised and pushed to the margins",
+                    "quest_starter": "One of the few remaining “free” tribe members approaches you with evidence of your grandparents’ harrowing deeds against their people. What is your reaction? What vow can you swear to try to mitigate the decades old damage?"
+                },
+                {
+                    "roll": {
+                        "min": 34,
+                        "max": 67
+                    }, 
+                    "description": "A wary peace exists between the Badlanders and those who first lived on the land we occupy. Relationships - commercial, social, and familial - are not uncommon, but can still draw ire from those set in their ways.",
+                    "quest_starter": "Someone on one side of the peace has put plans in motion to end it. What do they have to gain from conflict? How can you oppose them without starting a different battle?"
+                }, 
+                {
+                    "roll": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "There is open conflict between settler and native. Violence regularly breaks out on both sides, and no one is safe from its reach.",
+                    "quest_starter": "A noted combatant has laid down their arms and is trying to make peace. What made them change their ways? How do they hope to end the bloodshed? And what makes you think you can help?"
+                }
+            ]
+
+        },
+        "back_east": {
+            "name": "Back East",
+            "type": "truth",
+            "_id": "truth:badlands/back_east",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 4
+            },
+            "options": [
+                {
+                    "dice": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "Our roots Back East are all but forgotten. We have lived in the Badlands for generations and it is all we know.",
+                    "quest_starter": "A well-dressed stranger arrives from Back East. What motivated them to come all this way? What is your connection to their business? Will you aid or hinder them?"
+                },
+                {
+                    "dice": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "Contact with the East is sporadic, but still important. Many still feel a connection to their Eastern kin.",
+                    "quest_starter": "Contact with the East is cut off. What caused the disconnection? Who benefits and who suffers from it? How will you reestablish connection?"
+                },
+                {
+                    "dice": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "Back East thinks we are nothing but their colony and seeks to rule over us as they did before we came to Badlands. Their meddling is constant and oppressive.",
+                    "quest_starter": "Some Badlanders have begun to gather in groups and organize against Eastern influence. What is your relationship to these groups? When Back East moves against them, as they are sure to do, how will you react?"
+                }
+            ]
+        },
+        "communities": {
+            "name": "Communities",
+            "type": "truth",
+            "_id": "truth:badlands/communities",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 5
+            },
+            "options": [
+                {
+                    "dice": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "The population of the Badlands is sparse and far spread. Most families live in their own small steadings which are isolated and insular. Gatherings as large as a village are rare and strangers are viewed with suspicion",
+                    "quest_starter": "A person unknown to all arrives in your steading. They claim they need help, but it could just as easily be a trap. No one else is likely to offer aid. What do you do?"
+                },
+                {
+                    "dice": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "Settlements in the Badlands range in size from a steading with a few families to a village of several hundred. Travel and trade between towns is not uncommon.",
+                    "quest_starter": "A decades-long feud between two communities has flared into open conflict. What is the cause of this dispute? Do you join in the fight, or swear to put a stop to it?"
+                },
+                {
+                    "dice": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "We have established a foothold here in the Badlands. Some large towns could even claim the name city, and those dealing in the cattle trade or mining could even be called prosperous",
+                    "quest_starter": "Stagecoaches are forced to pay for passage along a trade road. This payment leaves several communities without sufficient winter stores. Who is making these demands? How will you set things right?"
+                }
+            ]
+        },
+        "iron_horse": {
+            "name": "Iron Horse",
+            "type": "truth",
+            "_id": "truth:badlands/iron_horse",
+            "dice": "1d100",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 5
+            },
+            "options": [
+                {
+                    "dice": {
+                        "min": 1,
+                        "max": 33
+                    },
+                    "description": "The railroad is for places where people want to go. The Badlands is not such a place. Why would the railroad ever come here?",
+                    "quest_starter": "Without the railroad, travel in the Badlands is grueling and dangerous. It’s not rare for a rider to leave a steading and never be seen again. Who do you know that this has happened to? What do you plan to do about it?"
+                },
+                {
+                    "dice": {
+                        "min": 34,
+                        "max": 67
+                    },
+                    "description": "Surveyors from the railroads have started to appear in the Badlands, planning out routes and taking notes. Perhaps even a few small rail lines have already been built.",
+                    "quest_starter": "Word is that the railroad is coming to your town. This may mean prosperity, but will definitely mean problems. Are the benefits worth the drawbacks? Do you help or hinder these efforts?"
+                }, 
+                {
+                    "dice": {
+                        "min": 68,
+                        "max": 100
+                    },
+                    "description": "Rail lines crisscross the Badlands. They are the backbone of trade and models of efficiency. Anywhere that’s anywhere has a station and facilities for passengers, as well as freight",
+                    "quest_starter": "A well organized gang of bandits have made it their job to rob the Badlands many trains. They have been getting more violent, and more than money is at risk now. How will you stop these bandits? Or will you join them?"
+                }
+            ]
+        }
+
     }
 }
