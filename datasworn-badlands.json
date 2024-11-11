@@ -1933,12 +1933,11 @@
         "tags": {}
     },
     "oracles": {
-        "action_and_theme":{},
-        "character":{},
         "name":{
             "name": "Name",
             "type": "oracle_collection",
             "oracle_type": "tables",
+            "_id": "oracle_collection:badlands/name",
             "_source": {
                 "authors": [
                     {
@@ -1956,6 +1955,7 @@
                     "name": "Badlander Names",
                     "oracle_type": "tables",
                     "type": "oracle_collection",
+                    "_id": "oracle_collection:badlands/name/badlander",
                     "canonical_name": "Oracle 13: Badlander Names",
                     "summary": "Use this oracle to quickly generate a name for an Badlander character.",
                     "_source": {
@@ -5775,14 +5775,16 @@
                             }
                             ]
                         }
-                    }
+                    },
+                    "collections": {}
                 }
-            }
+            },
+            "contents": {}
         },
-        "place":{},
         "settlement": {
             "name": "Badlands Settlement Oracles",
             "type": "oracle_collection",
+            "oracle_type": "tables",
             "_id": "oracle_collection:badlands/settlement",
             "_source": {
                 "authors": [
@@ -6547,8 +6549,7 @@
 
                 }
             }
-        },
-        "turning_point": {}
+        }
     },
     "moves":{
         "adventure": {
@@ -6620,13 +6621,13 @@
                     },
                     "outcomes": {
                         "strong_hit": {
-                            "text": "On a strong hit, your journey is efficient and safe. Take +1 momentum"
+                            "text": "On a __strong hit__, your journey is efficient and safe. Take +1 momentum"
                         },
                         "weak_hit": {
-                            "text": "On a weak hit, you reach your destination, but not without incident. [Pay the Price](datasworn:move:classic/fate/pay_the_price)."
+                            "text": "On a __weak hit__, you reach your destination, but not without incident. [Pay the Price](datasworn:move:classic/fate/pay_the_price)."
                         },
                         "miss": {
-                            "text": "On a miss, you are lost or waylaid. [Pay the Price](datasworn:move:classic/fate/pay_the_price) and when you continue your travels you must [Undertake a Journey](datasworn:move:classic/adventure/undertake_a_journey) to reach your destination."
+                            "text": "On a __miss__, you are lost or waylaid. [Pay the Price](datasworn:move:classic/fate/pay_the_price) and when you continue your travels you must [Undertake a Journey](datasworn:move:classic/adventure/undertake_a_journey) to reach your destination."
                         }
                     },
                     "text":"When you travel a well known path, but may still encounter danger, name your destination and roll. If your strategy is primarily to: \n\n * Travel at speed: Roll +edge\n * Travel cautiously: Roll +wits\n* Travel with a group: Roll +heart\n\n On a strong hit, your journey is efficient and safe. Take +1 momentum.\nOn a weak hit, you reach your destination, but not without incident. [Pay the Price](datasworn:move:classic/fate/pay_the_price). On a miss, you are lost or waylaid. [Pay the Price](datasworn:move:classic/fate/pay_the_price) and when you continue your travels you must [Undertake a Journey](datasworn:move:classic/adventure/undertake_a_journey) to reach your destination.",
@@ -6764,7 +6765,7 @@
                             "text": "On a __weak hit__, you may choose one boast in exchange for +1 momentum.\n\n * Grant first shot: Your foe has initiative.\n* Use your off hand: your harm is 1.\n* Stand tall and refuse to dodge: foe’s harm is +1.\n * Load only one bullet: hit or miss, you’ve got one shot.\n"
                         },
                         "miss": {
-                            "text": "On a miss, you begin the duel at a disadvantage. Your foe has initiative. [Pay the Price](datasworn:move:classic/fate/pay_the_price)."
+                            "text": "On a __miss__, you begin the duel at a disadvantage. Your foe has initiative. [Pay the Price](datasworn:move:classic/fate/pay_the_price)."
                         }
                     },
                     "allow_momentum_burn": true,
