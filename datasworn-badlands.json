@@ -2008,7 +2008,7 @@
                         "weak_hit": {
                             "text": "On a weak hit, you reach your destination, but not without incident. [Pay the Price](datasworn:move:classic/fate/pay_the_price)."
                         },
-                        "miss" {
+                        "miss": {
                             "text": "On a miss, you are lost or waylaid. [Pay the Price](datasworn:move:classic/fate/pay_the_price) and when you continue your travels you must [Undertake a Journey](datasworn:move:classic/adventure/undertake_a_journey) to reach your destination."
                         }
                     },
@@ -2045,7 +2045,7 @@
 
             },
             "collections": {},
-            "id": "move_category:badlands/adventure"
+            "_id": "move_category:badlands/adventure"
         },
         "suffer": {
             "name": "Badlands Suffer Moves",
@@ -2090,7 +2090,7 @@
                 }
             },
             "collections": {},
-            "id": "move_category:badlands/suffer"
+            "_id": "move_category:badlands/suffer"
         },
         "relationship": {
             "name": "Badlands Relationship Moves",
@@ -2253,7 +2253,9 @@
                         "max": 100
                     },
                     "description": "Back East the rich got richer and the poor got nothing. Out here in the Badlands everyone has a more-or-less equal chance to earn a good living, or even strike it big.",
-                    "quest_starter": "Land barons have been buying up cheap acreage and leasing it to those it was intended for. Who do you know that has been squeezed by this practice? What can you do to help them?"
+                    "quest_starter": "Land barons have been buying up cheap acreage and leasing it to those it was intended for. Who do you know that has been squeezed by this practice? What can you do to help them?",
+                    "_id": "truth.option:badlands/exodus.2"
+
                 }
             ]
         },
@@ -2281,7 +2283,8 @@
                         "max": 33
                     },
                     "description": "Our forebears slaughtered and subjugated those who lived here before we came to the Badlands. Those who remain have been disenfranchised and pushed to the margins",
-                    "quest_starter": "One of the few remaining “free” tribe members approaches you with evidence of your grandparents’ harrowing deeds against their people. What is your reaction? What vow can you swear to try to mitigate the decades old damage?"
+                    "quest_starter": "One of the few remaining “free” tribe members approaches you with evidence of your grandparents’ harrowing deeds against their people. What is your reaction? What vow can you swear to try to mitigate the decades old damage?",
+                    "_id": "truth.option:badlands/native_peoples.0"
                 },
                 {
                     "roll": {
@@ -2289,7 +2292,8 @@
                         "max": 67
                     }, 
                     "description": "A wary peace exists between the Badlanders and those who first lived on the land we occupy. Relationships - commercial, social, and familial - are not uncommon, but can still draw ire from those set in their ways.",
-                    "quest_starter": "Someone on one side of the peace has put plans in motion to end it. What do they have to gain from conflict? How can you oppose them without starting a different battle?"
+                    "quest_starter": "Someone on one side of the peace has put plans in motion to end it. What do they have to gain from conflict? How can you oppose them without starting a different battle?",
+                    "_id": "truth.option:badlands/native_peoples.1"
                 }, 
                 {
                     "roll": {
@@ -2297,7 +2301,8 @@
                         "max": 100
                     },
                     "description": "There is open conflict between settler and native. Violence regularly breaks out on both sides, and no one is safe from its reach.",
-                    "quest_starter": "A noted combatant has laid down their arms and is trying to make peace. What made them change their ways? How do they hope to end the bloodshed? And what makes you think you can help?"
+                    "quest_starter": "A noted combatant has laid down their arms and is trying to make peace. What made them change their ways? How do they hope to end the bloodshed? And what makes you think you can help?", 
+                    "_id": "truth.option:badlands/native_peoples.2"
                 }
             ]
 
@@ -2321,28 +2326,31 @@
             },
             "options": [
                 {
-                    "dice": {
+                    "roll": {
                         "min": 1,
                         "max": 33
                     },
                     "description": "Our roots Back East are all but forgotten. We have lived in the Badlands for generations and it is all we know.",
-                    "quest_starter": "A well-dressed stranger arrives from Back East. What motivated them to come all this way? What is your connection to their business? Will you aid or hinder them?"
+                    "quest_starter": "A well-dressed stranger arrives from Back East. What motivated them to come all this way? What is your connection to their business? Will you aid or hinder them?",
+                    "_id": "truth.option:badlands/back_east.0"
                 },
                 {
-                    "dice": {
+                    "roll": {
                         "min": 34,
                         "max": 67
                     },
                     "description": "Contact with the East is sporadic, but still important. Many still feel a connection to their Eastern kin.",
-                    "quest_starter": "Contact with the East is cut off. What caused the disconnection? Who benefits and who suffers from it? How will you reestablish connection?"
+                    "quest_starter": "Contact with the East is cut off. What caused the disconnection? Who benefits and who suffers from it? How will you reestablish connection?",
+                    "_id": "truth.option:badlands/back_east.1"
                 },
                 {
-                    "dice": {
+                    "roll": {
                         "min": 68,
                         "max": 100
                     },
                     "description": "Back East thinks we are nothing but their colony and seeks to rule over us as they did before we came to Badlands. Their meddling is constant and oppressive.",
-                    "quest_starter": "Some Badlanders have begun to gather in groups and organize against Eastern influence. What is your relationship to these groups? When Back East moves against them, as they are sure to do, how will you react?"
+                    "quest_starter": "Some Badlanders have begun to gather in groups and organize against Eastern influence. What is your relationship to these groups? When Back East moves against them, as they are sure to do, how will you react?",
+                    "_id": "truth.option:badlands/back_east.2"
                 }
             ]
         },
@@ -2365,28 +2373,31 @@
             },
             "options": [
                 {
-                    "dice": {
+                    "roll": {
                         "min": 1,
                         "max": 33
                     },
                     "description": "The population of the Badlands is sparse and far spread. Most families live in their own small steadings which are isolated and insular. Gatherings as large as a village are rare and strangers are viewed with suspicion",
-                    "quest_starter": "A person unknown to all arrives in your steading. They claim they need help, but it could just as easily be a trap. No one else is likely to offer aid. What do you do?"
+                    "quest_starter": "A person unknown to all arrives in your steading. They claim they need help, but it could just as easily be a trap. No one else is likely to offer aid. What do you do?",
+                    "_id": "truth.option:badlands/communities.0"
                 },
                 {
-                    "dice": {
+                    "roll": {
                         "min": 34,
                         "max": 67
                     },
                     "description": "Settlements in the Badlands range in size from a steading with a few families to a village of several hundred. Travel and trade between towns is not uncommon.",
-                    "quest_starter": "A decades-long feud between two communities has flared into open conflict. What is the cause of this dispute? Do you join in the fight, or swear to put a stop to it?"
+                    "quest_starter": "A decades-long feud between two communities has flared into open conflict. What is the cause of this dispute? Do you join in the fight, or swear to put a stop to it?", 
+                    "_id": "truth.option:badlands/communities.1"
                 },
                 {
-                    "dice": {
+                    "roll": {
                         "min": 68,
                         "max": 100
                     },
                     "description": "We have established a foothold here in the Badlands. Some large towns could even claim the name city, and those dealing in the cattle trade or mining could even be called prosperous",
-                    "quest_starter": "Stagecoaches are forced to pay for passage along a trade road. This payment leaves several communities without sufficient winter stores. Who is making these demands? How will you set things right?"
+                    "quest_starter": "Stagecoaches are forced to pay for passage along a trade road. This payment leaves several communities without sufficient winter stores. Who is making these demands? How will you set things right?",
+                    "_id": "truth.option:badlands/communities.2"
                 }
             ]
         },
@@ -2409,28 +2420,32 @@
             },
             "options": [
                 {
-                    "dice": {
+                    "roll": {
                         "min": 1,
                         "max": 33
                     },
                     "description": "The railroad is for places where people want to go. The Badlands is not such a place. Why would the railroad ever come here?",
-                    "quest_starter": "Without the railroad, travel in the Badlands is grueling and dangerous. It’s not rare for a rider to leave a steading and never be seen again. Who do you know that this has happened to? What do you plan to do about it?"
+                    "quest_starter": "Without the railroad, travel in the Badlands is grueling and dangerous. It’s not rare for a rider to leave a steading and never be seen again. Who do you know that this has happened to? What do you plan to do about it?",
+                    "_id": "truth.option:badlands/iron_horse.0"
+
                 },
                 {
-                    "dice": {
+                    "roll": {
                         "min": 34,
                         "max": 67
                     },
                     "description": "Surveyors from the railroads have started to appear in the Badlands, planning out routes and taking notes. Perhaps even a few small rail lines have already been built.",
-                    "quest_starter": "Word is that the railroad is coming to your town. This may mean prosperity, but will definitely mean problems. Are the benefits worth the drawbacks? Do you help or hinder these efforts?"
+                    "quest_starter": "Word is that the railroad is coming to your town. This may mean prosperity, but will definitely mean problems. Are the benefits worth the drawbacks? Do you help or hinder these efforts?",
+                    "_id": "truth.option:badlands/iron_horse.1"
                 }, 
                 {
-                    "dice": {
+                    "roll": {
                         "min": 68,
                         "max": 100
                     },
                     "description": "Rail lines crisscross the Badlands. They are the backbone of trade and models of efficiency. Anywhere that’s anywhere has a station and facilities for passengers, as well as freight",
-                    "quest_starter": "A well organized gang of bandits have made it their job to rob the Badlands many trains. They have been getting more violent, and more than money is at risk now. How will you stop these bandits? Or will you join them?"
+                    "quest_starter": "A well organized gang of bandits have made it their job to rob the Badlands many trains. They have been getting more violent, and more than money is at risk now. How will you stop these bandits? Or will you join them?",
+                    "_id": "truth.option:badlands/iron_horse.2"
                 }
             ]
         },
@@ -2458,7 +2473,8 @@
                         "max": 33
                     },
                     "description": "While folks Back East would think every critter out here is fearsome, there’s nothing roaming these lands anymore that a Badlander would find unusual. Anyone who says different is just telling tales.",
-                    "quest_starter": "You were witness to an attack by what you thought was an animal of monstrous proportions. No one believes you. In fact, you are accused of the murder you blame on this beast. How can you prove your innocence? Can you even trust your own memories of the event?"
+                    "quest_starter": "You were witness to an attack by what you thought was an animal of monstrous proportions. No one believes you. In fact, you are accused of the murder you blame on this beast. How can you prove your innocence? Can you even trust your own memories of the event?",
+                    "_id": "truth.option:badlands/beasts.0"
                 },
                 {
                     "roll": {
@@ -2466,7 +2482,8 @@
                         "max": 67
                     },
                     "description": "There are frightful beasts that slither, stalk and stampede throughout the wilds of the Badlands. They ain’t exactly common, but they ain’t exactly as rare as some folks might hope.",
-                    "quest_starter": "A prominent Badlander is consumed with the need to bring vengeance upon a specific beast. What makes this creature distinctive? How did it earn the wrath of this Badlander? Do you aid this person in their quest, or act to prevent their blind hate from destroying more than just the beast?"
+                    "quest_starter": "A prominent Badlander is consumed with the need to bring vengeance upon a specific beast. What makes this creature distinctive? How did it earn the wrath of this Badlander? Do you aid this person in their quest, or act to prevent their blind hate from destroying more than just the beast?",
+                    "_id": "truth.option:badlands/beasts.1"
                 },
                 {
                     "roll": {
@@ -2474,7 +2491,8 @@
                         "max": 100
                     },
                     "description": "Beasts of all sorts roam the Badlands. They dwell primarily in the reaches, but range into the settled lands to hunt. There, they often prey on cattle, but attacks on travelers, coaches, or even settlements are not uncommon.",
-                    "quest_starter": "Professional slayers earn their keep by killing beasts. This particular slayer, famed throughout the Ironlands for their numerous kills, has gone missing on a hunt. Did they finally meet their match, or is something more nefarious at play. What is your connection to them?"
+                    "quest_starter": "Professional slayers earn their keep by killing beasts. This particular slayer, famed throughout the Ironlands for their numerous kills, has gone missing on a hunt. Did they finally meet their match, or is something more nefarious at play. What is your connection to them?",
+                    "_id": "truth.option:badlands/beasts.2"
                 }
             ]
         },
@@ -2502,7 +2520,8 @@
                         "max": 33
                     },
                     "description": "Shooting irons are rare and precious. If a body owns one, it’s likely the most expensive possession they have, and they’re not liable to let it out of their sight.",
-                    "quest_starter": "A prominent member of your steading has had their gun go missing - one of the few guns around. You have been tasked with finding and retrieving it. But it is an awfully nice piece, and once you find it, who could stop you from keeping it?"
+                    "quest_starter": "A prominent member of your steading has had their gun go missing - one of the few guns around. You have been tasked with finding and retrieving it. But it is an awfully nice piece, and once you find it, who could stop you from keeping it?",
+                    "_id": "truth.option:badlands/guns.0"
                 },
                 {
                     "roll": {
@@ -2510,7 +2529,8 @@
                         "max": 67
                     },
                     "description": "Guns are tools. Most folk who work dangerous jobs keep them, but those in more pacific professions have no need of them.",
-                    "quest_starter": "An acquaintance of yours who normally carries was caught in a bad spot without their shooting iron. What were the consequences? How do you aim to rectify the situation? And why weren’t they carrying in the first place?"
+                    "quest_starter": "An acquaintance of yours who normally carries was caught in a bad spot without their shooting iron. What were the consequences? How do you aim to rectify the situation? And why weren’t they carrying in the first place?",
+                    "_id": "truth.option:badlands/guns.1"
                 },
                 {
                     "roll": {
@@ -2518,7 +2538,9 @@
                         "max": 100
                     },
                     "description": "Rare is the Badlander who isn’t carrying iron, and if you draw down on someone you best expect them to draw back.",
-                    "quest_starter": "No one is sure what the spark was that lit the fuse, but someone said or did something untoward and now several bodies are cooling in the town square. Who has asked you to get to the bottom of it and enact the proper justice? Who opposes your efforts? Why might they be right to do so?"
+                    "quest_starter": "No one is sure what the spark was that lit the fuse, but someone said or did something untoward and now several bodies are cooling in the town square. Who has asked you to get to the bottom of it and enact the proper justice? Who opposes your efforts? Why might they be right to do so?",
+                    "_id": "truth.option:badlands/guns.2"
+
                 }
             ]
         },
@@ -2546,7 +2568,8 @@
                         "max": 33
                     },
                     "description": "Things in the Badlands ain’t nearly as chaotic as those Back East would have you believe. For the most part folks follow the law, and at least out here we’ve got honest criminals, not besuited businessmen robbing folks with a fountain pen.", 
-                    "quest_starter": "Someone you know who usually walks the straight and narrow has suddenly committed a criminal act and issought by the law. What did they (allegedly) do? Do you aim to help hide them, help find them, or take another tack?"
+                    "quest_starter": "Someone you know who usually walks the straight and narrow has suddenly committed a criminal act and issought by the law. What did they (allegedly) do? Do you aim to help hide them, help find them, or take another tack?",
+                    "_id": "truth.option:badlands/the_law.0"
                 },
                 {
                     "roll" : {
@@ -2554,7 +2577,8 @@
                         "max": 67
                     },
                     "description": "Crime ain’t exactly rare here in the Badlands. Folks are just about as likely to do what they wish as what they ought, regardless of what might be written down on a piece of paper.",
-                    "quest_starter": "They say it ain’t a crime if you don’t get caught, and you didn’t. But now the ramifications of your seemingly inconsequential act are becoming clear, and you’re starting to get caught in your own conscience. But now it might be too late. What did you do, and how can you make it right despite the long odds?"
+                    "quest_starter": "They say it ain’t a crime if you don’t get caught, and you didn’t. But now the ramifications of your seemingly inconsequential act are becoming clear, and you’re starting to get caught in your own conscience. But now it might be too late. What did you do, and how can you make it right despite the long odds?",
+                    "_id": "truth.option:badlands/the_law.1"
                 },
                 {
                     "roll": {
@@ -2562,7 +2586,8 @@
                         "max": 100
                     },
                     "description": "The Badlands truly is the Wild West. The only law out here is your will imposed upon another person. Lawbreakers are just as common, if not moreso, than law abiders.",
-                    "quest_starter": "A noted gunfighter has styled themselves a self-appointed Marshal and aims to bring law and order to the county. Could this plan ever be successful? Do you aim to help or hinder their efforts? And don’t you have as much claim to appoint yourself Marshal as they do?"
+                    "quest_starter": "A noted gunfighter has styled themselves a self-appointed Marshal and aims to bring law and order to the county. Could this plan ever be successful? Do you aim to help or hinder their efforts? And don’t you have as much claim to appoint yourself Marshal as they do?",
+                    "_id": "truth.option:badlands/the_law.2"
                 }
             ]
         },
@@ -2590,7 +2615,8 @@
                         "max": 33
                     },
                     "description": "The Badlands are aptly named; there is nothing good here. It is a wasteland as brutal on the eyes as it is on the body, and survival is a constant battle.",
-                    "quest_starter": "Seems that a group of someones who ought to have known better founded a town where they shouldn’t have and are now reaping the consequences. It’s hard to tell if famine, drought, or predation will take them out first, but something sure will - unless you help. How do you plan to undo their poor decisions?"
+                    "quest_starter": "Seems that a group of someones who ought to have known better founded a town where they shouldn’t have and are now reaping the consequences. It’s hard to tell if famine, drought, or predation will take them out first, but something sure will - unless you help. How do you plan to undo their poor decisions?",
+                    "_id": "truth.option:badlands/the_land.0"
                 },
                 {
                     "roll": {
@@ -2598,7 +2624,8 @@
                         "max": 67
                     },
                     "description": "The Badlands are a cruel, but beguiling mistress. Gorgeous vistas and stunning sunsets belie the perils of the wide and dangerous land.",
-                    "quest_starter": "As beautiful as it is, the land can be deadly, especially if you end up in the wrong part. That’s why you’ve vowed to map the Badlands. What made you undertake such a vow? Are you working alone? How can you hope to complete it?"
+                    "quest_starter": "As beautiful as it is, the land can be deadly, especially if you end up in the wrong part. That’s why you’ve vowed to map the Badlands. What made you undertake such a vow? Are you working alone? How can you hope to complete it?",
+                    "_id": "truth.option:badlands/the_land.1"
                 },
                 {
                     "roll": {
@@ -2606,7 +2633,8 @@
                         "max": 100
                     },
                     "description": "The Badlands are only dangerous if you’re as ignorant as a Back Easter. The landscape is downright verdant if you know where and how to look.",
-                    "quest_starter": "A well-heeled Back Easter has heard the siren song of the Badlands and is looking for a tour guide to its many wonders. Coin is coin, and how difficult could it be? Pretty difficult, it turns out. What mistakes does this tinhorn keep making, and why is it not so simple for you to leave their employ?"
+                    "quest_starter": "A well-heeled Back Easter has heard the siren song of the Badlands and is looking for a tour guide to its many wonders. Coin is coin, and how difficult could it be? Pretty difficult, it turns out. What mistakes does this tinhorn keep making, and why is it not so simple for you to leave their employ?",
+                    "_id": "truth.option:badlands/the_land.2"
                 }
             ]    
         }
