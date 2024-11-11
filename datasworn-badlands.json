@@ -1438,6 +1438,7 @@
                                         "conditions": [
                                             {
                                                 "text": "and would mark unprepared",
+                                                "method":null,
                                                 "roll_options": [
                                                     {
                                                         "using": "stat",
@@ -1514,21 +1515,6 @@
                         },
                         {
                             "text": "Spend supply 1-for-1 to give the patient whiskey to drink and a bullet to bite and add +1 to the above roll for each supply spent",
-                            "enhance_moves": [
-                                {
-                                    "roll_type": "action_roll",
-                                    "enhances": ["asset.ability:badlands/path/sawbones.0"],
-                                    "trigger": {
-                                        "conditions": [
-                                            {
-                                                "text": "spend supply 1-for-1",
-                                                "roll_options": null,
-                                                "method": null
-                                            }
-                                        ]
-                                    }
-                                }
-                            ],
                             "enabled": false,
                             "options": {},
                             "controls": {},
@@ -1898,6 +1884,7 @@
                                     }
                                 }
                             ],
+                            "enabled": false,
                             "options": {},
                             "controls": {},
                             "oracles": {},
@@ -1921,6 +1908,7 @@
                                     }
                                 }
                             ],
+                            "enabled": false,
                             "options": {},
                             "controls": {},
                             "oracles": {},
@@ -1936,5 +1924,232 @@
                 }
 			}
 		}
-	}
+	},
+    "rules": {},
+    "oracles": {},
+    "moves":{
+        "adventure": {
+            "name": "Badlands Adventure Moves",
+            "type": "move_category",
+            "_source":{
+                "authors":[
+                    {
+                        "name":"Keith Stetson"
+                    }
+                ],
+                "license":"https://creativecommons.org/licenses/by/4.0",
+                "title":"Badlands Supplement",
+                "date":"2020-07-22",
+                "url":"https://kstetson.itch.io/ironsworn-badlands",
+                "page":28
+            },
+            "contents": {
+                "follow_the_path": {
+                    "name": "Follow the Path",
+                    "type": "move",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 28
+                    },
+                    "roll_type": "action_roll",
+                    "trigger": {
+                        "text": "When you travel a well-known path but may still encounter danger...",
+                        "conditions": [
+                            {
+                                "text": "With Speed",
+                                "method": "player_choice",
+                                "roll_options": [
+                                    {
+                                        "using": "stat",
+                                        "stat": "edge"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "With Caution",
+                                "method": "player_choice",
+                                "roll_options": [
+                                    {
+                                        "using": "stat",
+                                        "stat": "wits"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "With a group",
+                                "method": "player_choice",
+                                "roll_options": [
+                                    {
+                                        "using": "stat",
+                                        "stat": "heart"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "outcomes": {
+                        "strong_hit": {
+                            "text": "On a strong hit, your journey is efficient and safe. Take +1 momentum"
+                        },
+                        "weak_hit": {
+                            "text": "On a weak hit, you reach your destination, but not without incident. [Pay the Price](datasworn:move:classic/fate/pay_the_price)."
+                        },
+                        "miss" {
+                            "text": "On a miss, you are lost or waylaid. [Pay the Price](datasworn:move:classic/fate/pay_the_price) and when you continue your travels you must [Undertake a Journey](datasworn:move:classic/adventure/undertake_a_journey) to reach your destination."
+                        }
+                    },
+                    "text":"When you travel a well known path, but may still encounter danger, name your destination and roll. If your strategy is primarily to: \n\n * Travel at speed: Roll +edge\n * Travel cautiously: Roll +wits\n* Travel with a group: Roll +heart\n\n On a strong hit, your journey is efficient and safe. Take +1 momentum.\nOn a weak hit, you reach your destination, but not without incident. [Pay the Price](datasworn:move:classic/fate/pay_the_price). On a miss, you are lost or waylaid. [Pay the Price](datasworn:move:classic/fate/pay_the_price) and when you continue your travels you must [Undertake a Journey](datasworn:move:classic/adventure/undertake_a_journey) to reach your destination.",
+                    "oracles": {},
+                    "allow_momentum_burn": true,
+                    "_id": "move:badlands/adventure/follow_the_path"
+                },
+                "ride_the_rails": {
+                    "name": "Ride The Rails",
+                    "type": "move",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 28
+                    },
+                    "roll_type": "no_roll",
+                    "trigger": {
+                        "text": "When you ride a passenger train between two stations...",
+                        "conditions": []
+                    },
+                    "text": "When you take a passenger train between two stations, [Follow the Path](datasworn:move:badlands/adventure/follow_the_path). Instead of rolling +stat, roll +supply spent on your ticket. This can range from 0 supply for stowing away with the cargo to 5 supply for luxurious accommodations on a private car. Interpret the results of the roll as normal.",
+                    "outcomes": null,
+                    "allow_momentum_burn": false,
+                    "_id": "move:badlands/adventure/ride_the_rails"
+                }
+
+            },
+            "collections": {},
+            "id": "move_category:badlands/adventure"
+        },
+        "suffer": {
+            "name": "Badlands Suffer Moves",
+            "type": "move_category",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 28
+            },
+            "contents": {
+                "out_of_ammo": {
+                    "name": "Out of Ammo",
+                    "type": "move",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                            "page": 28
+                    },
+                    "roll_type": "no_roll",
+                    "trigger": {
+                        "text": "When you use a firearm and roll 1 on your action die...",
+                        "conditions": []
+                    },
+                    "text": "When you use a firearm and roll a 1 on your action die, you have used the final bullet and must suffer -1 supply to reload before using it again.",
+                    "outcomes": null,
+                    "allow_momentum_burn": false,
+                    "_id": "move:badlands/suffer/out_of_ammo"
+                }
+            },
+            "collections": {},
+            "id": "move_category:badlands/suffer"
+        },
+        "relationship": {
+            "name": "Badlands Relationship Moves",
+            "type": "move_category",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 28
+            },
+            "contents": {
+                "draw_the_circle_revised": {
+                    "name": "Draw The Circle",
+                    "type": "move",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 28
+                    },
+                    "roll_type": "action_roll",
+                    "trigger": {
+                        "text": "When you challenge someone to a formal duel or accept a challenge...",
+                        "conditions": [
+                            {
+                                "method": "player_choice",
+                                "roll_options": [
+                                    {
+                                        "using": "stat",
+                                        "stat": "heart"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "text": "When you challenge someone to a formal duel, or accept a challenge, roll +heart. If you share a bond with this community, add +1.\n On a strong hit, take +1 momentum. You may also choose up to two boasts and take +1 momentum for each.\n On a weak hit, you may choose one boast in exchange for +1 momentum.\n\n * Grant first shot: Your foe has initiative.\n* Use your off hand: your harm is 1.\n* Stand tall and refuse to dodge: foe’s harm is +1.\n * Load only one bullet: hit or miss, you’ve got one shot.\n * To the death: One way or another, this fight must end with death. \n\n On a miss, you begin the duel at a disadvantage. Your foe has initiative. [Pay the Price](datasworn:move:classic/fate/pay_the_price).\n\n Then, make moves to resolve the fight. For the classic Western duel many of these moves will be setting up your shot. These moves will still fill up the progress track and prepare you for the final moments. If you are the victor, you may make a lawful demand, and your opponent must comply or forfeit their honor and standing. If you refuse the challenge, surrender,or are defeated, they make a demand of you.",
+                    "outcomes": {
+                        "strong_hit": {
+                            "text": "On a __strong hit__, take +1 momentum. You may also choose up to two boasts and take +1 momentum for each. \n\n * Grant first shot: Your foe has initiative.\n* Use your off hand: your harm is 1.\n* Stand tall and refuse to dodge: foe’s harm is +1.\n * Load only one bullet: hit or miss, you’ve got one shot.\n"
+                        },
+                        "weak_hit": {
+                            "text": "On a __weak hit__, you may choose one boast in exchange for +1 momentum.\n\n * Grant first shot: Your foe has initiative.\n* Use your off hand: your harm is 1.\n* Stand tall and refuse to dodge: foe’s harm is +1.\n * Load only one bullet: hit or miss, you’ve got one shot.\n"
+                        },
+                        "miss": {
+                            "text": "On a miss, you begin the duel at a disadvantage. Your foe has initiative. [Pay the Price](datasworn:move:classic/fate/pay_the_price)."
+                        }
+                    },
+                    "allow_momentum_burn": true,
+                    "_id": "move:badlands/relationship/draw_the_circle_revised"
+                }
+            },
+            "collections": {},
+            "id": "move_category:badlands/relationship"
+        }
+    }
 }
