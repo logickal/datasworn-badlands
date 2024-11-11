@@ -1932,7 +1932,3857 @@
         "special_tracks": {},
         "tags": {}
     },
-    "oracles": {},
+    "oracles": {
+        "action_and_theme":{},
+        "character":{},
+        "name":{
+            "name": "Name",
+            "type": "oracle_collection",
+            "oracle_type": "tables",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 8
+            },
+            "collections": {
+                "badlander": {
+                    "name": "Badlander Names",
+                    "oracle_type": "tables",
+                    "type": "oracle_collection",
+                    "canonical_name": "Oracle 13: Badlander Names",
+                    "summary": "Use this oracle to quickly generate a name for an Badlander character.",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 8
+                    },
+                    "contents": {
+                        "a": {
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 8
+                            },
+                            "name": "Table A",
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "canonical_name": "Badlander Names: Female sounding first names",
+                            "dice":"1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },  
+                            "_id": "oracle_rollable:badlands/name/badlander/a",
+                            "rows": [
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    "text": "Ada",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.0"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "text": "Agnes",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.1"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 3,
+                                        "max": 3
+                                    },
+                                    "text": "Alejandra",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.2"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 4,
+                                        "max": 4
+                                    },
+                                    "text": "Alice",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.3"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 5,
+                                        "max": 5
+                                    },
+                                    "text": "Alma",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.4"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 6,
+                                        "max": 6
+                                    },
+                                    "text": "Amanda",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.5"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 7,
+                                        "max": 7
+                                    },
+                                    "text": "Amelia",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.6"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 8,
+                                        "max": 8
+                                    },
+                                    "text": "Annie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.7"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 9,
+                                        "max": 9
+                                    },
+                                    "text": "Araceli",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.8"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 10,
+                                        "max": 10
+                                    },
+                                    "text": "Bertha",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.9"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 11,
+                                        "max": 11
+                                    },
+                                    "text": "Bessie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.10"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 12,
+                                        "max": 12
+                                    },
+                                    "text": "Birdie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.11"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 13,
+                                        "max": 13
+                                    },
+                                    "text": "Blanche",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.12"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 14,
+                                        "max": 14
+                                    },
+                                    "text": "Caroline",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.13"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 15,
+                                        "max": 15
+                                    },
+                                    "text": "Carrie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.14"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 16,
+                                        "max": 16
+                                    },
+                                    "text": "Catherine",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.15"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 17,
+                                        "max": 17
+                                    },
+                                    "text": "Charlotte",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.16"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 18,
+                                        "max": 18
+                                    },
+                                    "text": "Clara",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.17"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 19,
+                                        "max": 19
+                                    },
+                                    "text": "Cora",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.18"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 20,
+                                        "max": 20
+                                    },
+                                    "text": "Daisy",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.19"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 21,
+                                        "max": 21
+                                    },
+                                    "text": "Delia",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.20"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 22,
+                                        "max": 22
+                                    },
+                                    "text": "Della",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.21"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 23,
+                                        "max": 23
+                                    },
+                                    "text": "Dora",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.22"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 24,
+                                        "max": 24
+                                    },
+                                    "text": "Edith",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.23"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 25,
+                                        "max": 25
+                                    },
+                                    "text": "Edna",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.24"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 26,
+                                        "max": 26
+                                    },
+                                    "text": "Effie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.25"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 27,
+                                        "max": 27
+                                    },
+                                    "text": "Elena",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.26"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 28,
+                                        "max": 28
+                                    },
+                                    "text": "Elizabeth",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.27"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 29,
+                                        "max": 29
+                                    },
+                                    "text": "Ella",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.28"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 30,
+                                        "max": 30
+                                    },
+                                    "text": "Ellen",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.29"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 31,
+                                        "max": 31
+                                    },
+                                    "text": "Elsie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.30"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 32,
+                                        "max": 32
+                                    },
+                                    "text": "Emily",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.31"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 33,
+                                        "max": 33
+                                    },
+                                    "text": "Emma",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.32"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 34,
+                                        "max": 34
+                                    },
+                                    "text": "Esther",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.33"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 35,
+                                        "max": 35
+                                    },
+                                    "text": "Ethel",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.34"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 36,
+                                        "max": 36
+                                    },
+                                    "text": "Etta",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.35"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 37,
+                                        "max": 37
+                                    },
+                                    "text": "Eva",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.36"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 38,
+                                        "max": 38
+                                    },
+                                    "text": "Fannie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.37"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 39,
+                                        "max": 39
+                                    },
+                                    "text": "Flora",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.38"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 40,
+                                        "max": 40
+                                    },
+                                    "text": "Florence",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.39"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 41,
+                                        "max": 41
+                                    },
+                                    "text": "Frances",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.40"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 42,
+                                        "max": 42
+                                    },
+                                    "text": "Georgia",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.41"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 43,
+                                        "max": 43
+                                    },
+                                    "text": "Gertrude",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.42"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 44,
+                                        "max": 44
+                                    },
+                                    "text": "Gloria",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.43"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 45,
+                                        "max": 45
+                                    },
+                                    "text": "Grace",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.44"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 46,
+                                        "max": 46
+                                    },
+                                    "text": "Harriet",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.45"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 47,
+                                        "max": 47
+                                    },
+                                    "text": "Hattie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.46"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 48,
+                                        "max": 48
+                                    },
+                                    "text": "Hazel",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.47"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 49,
+                                        "max": 49
+                                    },
+                                    "text": "Helen",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.48"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 50,
+                                        "max": 50
+                                    },
+                                    "text": "Ida",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.49"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 51,
+                                        "max": 51
+                                    },
+                                    "text": "Irene",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.50"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 52,
+                                        "max": 52
+                                    },
+                                    "text": "Isabel",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.51"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 53,
+                                        "max": 53
+                                    },
+                                    "text": "Jane",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.52"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 54,
+                                        "max": 54
+                                    },
+                                    "text": "Jennie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.53"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 55,
+                                        "max": 55
+                                    },
+                                    "text": "Jessie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.54"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 56,
+                                        "max": 56
+                                    },
+                                    "text": "Josefina",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.55"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 57,
+                                        "max": 57
+                                    },
+                                    "text": "Josephine",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.56"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 58,
+                                        "max": 58
+                                    },
+                                    "text": "Julia",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.57"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 59,
+                                        "max": 59
+                                    },
+                                    "text": "Kate",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.58"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 60,
+                                        "max": 60
+                                    },
+                                    "text": "Katherine",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.59"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 61,
+                                        "max": 61
+                                    },
+                                    "text": "Katie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.60"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 62,
+                                        "max": 62
+                                    },
+                                    "text": "Laura",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.61"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 63,
+                                        "max": 63
+                                    },
+                                    "text": "Lena",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.62"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 64,
+                                        "max": 64
+                                    },
+                                    "text": "Leticia",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.63"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 65,
+                                        "max": 65
+                                    },
+                                    "text": "Lillie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.64"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 66,
+                                        "max": 66
+                                    },
+                                    "text": "Lizzie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.65"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 67,
+                                        "max": 67
+                                    },
+                                    "text": "Lottie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.66"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 68,
+                                        "max": 68
+                                    },
+                                    "text": "Louise",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.67"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 69,
+                                        "max": 69
+                                    },
+                                    "text": "Lucy",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.68"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 70,
+                                        "max": 70
+                                    },
+                                    "text": "Lulu",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.69"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 71,
+                                        "max": 71
+                                    },
+                                    "text": "Lydia",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.70"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 72,
+                                        "max": 72
+                                    },
+                                    "text": "Mabel",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.71"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 73,
+                                        "max": 73
+                                    },
+                                    "text": "Mae",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.72"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 74,
+                                        "max": 74
+                                    },
+                                    "text": "Maggie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.73"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 75,
+                                        "max": 75
+                                    },
+                                    "text": "Mamie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.74"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 76,
+                                        "max": 76
+                                    },
+                                    "text": "Margaret",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.75"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 77,
+                                        "max": 77
+                                    },
+                                    "text": "Margarita",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.76"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 78,
+                                        "max": 78
+                                    },
+                                    "text": "Maria",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.77"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 79,
+                                        "max": 79
+                                    },
+                                    "text": "Martha",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.78"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 80,
+                                        "max": 80
+                                    },
+                                    "text": "Mary",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.79"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 81,
+                                        "max": 81
+                                    },
+                                    "text": "Mattie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.80"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 82,
+                                        "max": 82
+                                    },
+                                    "text": "Maude",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.81"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 83,
+                                        "max": 83
+                                    },
+                                    "text": "May",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.82"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 84,
+                                        "max": 84
+                                    },
+                                    "text": "Minnie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.83"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 85,
+                                        "max": 85
+                                    },
+                                    "text": "Mollie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.84"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 86,
+                                        "max": 86
+                                    },
+                                    "text": "Myrtle",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.85"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 87,
+                                        "max": 87
+                                    },
+                                    "text": "Nancy",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.86"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 88,
+                                        "max": 88
+                                    },
+                                    "text": "Nellie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.87"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 89,
+                                        "max": 89
+                                    },
+                                    "text": "Nora",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.88"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 90,
+                                        "max": 90
+                                    },
+                                    "text": "Olive",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.89"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 91,
+                                        "max": 91
+                                    },
+                                    "text": "Rosa",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.90"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 92,
+                                        "max": 92
+                                    },
+                                    "text": "Ruth",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.91"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 93,
+                                        "max": 93
+                                    },
+                                    "text": "Sadie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.92"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 94,
+                                        "max": 94
+                                    },
+                                    "text": "Sallie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.93"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 95,
+                                        "max": 95
+                                    },
+                                    "text": "Sarah",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.94"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 96,
+                                        "max": 96
+                                    },
+                                    "text": "Stella",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.95"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 97,
+                                        "max": 97
+                                    },
+                                    "text": "Susan",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.96"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 98,
+                                        "max": 98
+                                    },
+                                    "text": "Susie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.97"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 99,
+                                        "max": 99
+                                    },
+                                    "text": "Viola",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.98"
+                                },
+                                {
+                                    "_i18n": {
+                                        "text": {
+                                            "part_of_speech": "proper_noun"
+                                        }
+                                    },
+                                    "roll": {
+                                        "min": 100,
+                                        "max": 100
+                                    },
+                                    "text": "Willie",
+                                    "_id": "oracle_rollable.row:badlands/name/ironlander/a.99"
+                                }
+                            ]
+                        },
+                        "b": {
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 8
+                            },
+                            "name": "Table B",
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "canonical_name": "Badlander Names: Male sounding first names",
+                            "dice":"1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },  
+                            "_id": "oracle_rollable:badlands/name/badlander/b",
+                            "rows": [
+                                {
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    "text": "Albert",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.0"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "text": "Alejandro",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.1"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 3,
+                                        "max": 3
+                                    },
+                                    "text": "Alexander",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.2"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 4,
+                                        "max": 4
+                                    },
+                                    "text": "Alfred",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.3"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 5,
+                                        "max": 5
+                                    },
+                                    "text": "Allen",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.4"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 6,
+                                        "max": 6
+                                    },
+                                    "text": "Andrew",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.5"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 7,
+                                        "max": 7
+                                    },
+                                    "text": "Angel",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.6"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 8,
+                                        "max": 8
+                                    },
+                                    "text": "Anthony",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.7"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 9,
+                                        "max": 9
+                                    },
+                                    "text": "Antonio",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.8"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 10,
+                                        "max": 10
+                                    },
+                                    "text": "Archie",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.9"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 11,
+                                        "max": 11
+                                    },
+                                    "text": "Arthur",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.10"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 12,
+                                        "max": 12
+                                    },
+                                    "text": "Ben",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.11"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 13,
+                                        "max": 13
+                                    },
+                                    "text": "Benjamin",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.12"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 14,
+                                        "max": 14
+                                    },
+                                    "text": "Bernard",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.13"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 15,
+                                        "max": 15
+                                    },
+                                    "text": "Bert",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.14"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 16,
+                                        "max": 16
+                                    },
+                                    "text": "Carl",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.15"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 17,
+                                        "max": 17
+                                    },
+                                    "text": "Charles",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.16"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 18,
+                                        "max": 18
+                                    },
+                                    "text": "Charlie",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.17"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 19,
+                                        "max": 19
+                                    },
+                                    "text": "Chester",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.18"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 20,
+                                        "max": 20
+                                    },
+                                    "text": "Clarence",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.19"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 21,
+                                        "max": 21
+                                    },
+                                    "text": "Claude",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.20"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 22,
+                                        "max": 22
+                                    },
+                                    "text": "Clifford",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.21"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 23,
+                                        "max": 23
+                                    },
+                                    "text": "Clyde",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.22"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 24,
+                                        "max": 24
+                                    },
+                                    "text": "Daniel",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.23"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 25,
+                                        "max": 25
+                                    },
+                                    "text": "David",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.24"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 26,
+                                        "max": 26
+                                    },
+                                    "text": "Earl",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.25"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 27,
+                                        "max": 27
+                                    },
+                                    "text": "Edgar",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.26"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 28,
+                                        "max": 28
+                                    },
+                                    "text": "Edward",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.27"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 29,
+                                        "max": 29
+                                    },
+                                    "text": "Edwin",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.28"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 30,
+                                        "max": 30
+                                    },
+                                    "text": "Elmer",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.29"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 31,
+                                        "max": 31
+                                    },
+                                    "text": "Ernest",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.30"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 32,
+                                        "max": 32
+                                    },
+                                    "text": "Eugene",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.31"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 33,
+                                        "max": 33
+                                    },
+                                    "text": "Floyd",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.32"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 34,
+                                        "max": 34
+                                    },
+                                    "text": "Francis",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.33"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 35,
+                                        "max": 35
+                                    },
+                                    "text": "Francisco",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.34"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 36,
+                                        "max": 36
+                                    },
+                                    "text": "Frank",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.35"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 37,
+                                        "max": 37
+                                    },
+                                    "text": "Frederick",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.36"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 38,
+                                        "max": 38
+                                    },
+                                    "text": "Gabriel",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.37"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 39,
+                                        "max": 39
+                                    },
+                                    "text": "George",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.38"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 40,
+                                        "max": 40
+                                    },
+                                    "text": "Grover",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.39"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 41,
+                                        "max": 41
+                                    },
+                                    "text": "Guy",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.40"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 42,
+                                        "max": 42
+                                    },
+                                    "text": "Harold",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.41"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 43,
+                                        "max": 43
+                                    },
+                                    "text": "Harry",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.42"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 44,
+                                        "max": 44
+                                    },
+                                    "text": "Harvey",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.43"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 45,
+                                        "max": 45
+                                    },
+                                    "text": "Henry",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.44"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 46,
+                                        "max": 46
+                                    },
+                                    "text": "Herbert",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.45"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 47,
+                                        "max": 47
+                                    },
+                                    "text": "Herman",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.46"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 48,
+                                        "max": 48
+                                    },
+                                    "text": "Homer",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.47"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 49,
+                                        "max": 49
+                                    },
+                                    "text": "Horace",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.48"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 50,
+                                        "max": 50
+                                    },
+                                    "text": "Howard",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.49"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 51,
+                                        "max": 51
+                                    },
+                                    "text": "Hugh",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.50"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 52,
+                                        "max": 52
+                                    },
+                                    "text": "Ira",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.51"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 53,
+                                        "max": 53
+                                    },
+                                    "text": "Isaac",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.52"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 54,
+                                        "max": 54
+                                    },
+                                    "text": "Jack",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.53"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 55,
+                                        "max": 55
+                                    },
+                                    "text": "Jacob",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.54"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 56,
+                                        "max": 56
+                                    },
+                                    "text": "James",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.55"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 57,
+                                        "max": 57
+                                    },
+                                    "text": "Jesse",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.56"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 58,
+                                        "max": 58
+                                    },
+                                    "text": "Jim",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.57"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 59,
+                                        "max": 59
+                                    },
+                                    "text": "Joaquin",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.58"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 60,
+                                        "max": 60
+                                    },
+                                    "text": "Joe",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.59"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 61,
+                                        "max": 61
+                                    },
+                                    "text": "John",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.60"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 62,
+                                        "max": 62
+                                    },
+                                    "text": "Joseph",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.61"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 63,
+                                        "max": 63
+                                    },
+                                    "text": "Juan",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.62"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 64,
+                                        "max": 64
+                                    },
+                                    "text": "Julius",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.63"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 65,
+                                        "max": 65
+                                    },
+                                    "text": "Lawrence",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.64"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 66,
+                                        "max": 66
+                                    },
+                                    "text": "Lee",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.65"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 67,
+                                        "max": 67
+                                    },
+                                    "text": "Leo",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.66"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 68,
+                                        "max": 68
+                                    },
+                                    "text": "Leonard",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.67"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 69,
+                                        "max": 69
+                                    },
+                                    "text": "Leroy",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.68"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 70,
+                                        "max": 70
+                                    },
+                                    "text": "Lewis",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.69"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 71,
+                                        "max": 71
+                                    },
+                                    "text": "Luis",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.70"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 72,
+                                        "max": 72
+                                    },
+                                    "text": "Luther",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.71"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 73,
+                                        "max": 73
+                                    },
+                                    "text": "Marion",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.72"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 74,
+                                        "max": 74
+                                    },
+                                    "text": "Martin",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.73"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 75,
+                                        "max": 75
+                                    },
+                                    "text": "Michael",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.74"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 76,
+                                        "max": 76
+                                    },
+                                    "text": "Miguel",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.75"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 77,
+                                        "max": 77
+                                    },
+                                    "text": "Milton",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.76"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 78,
+                                        "max": 78
+                                    },
+                                    "text": "Oliver",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.77"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 79,
+                                        "max": 79
+                                    },
+                                    "text": "Oscar",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.78"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 80,
+                                        "max": 80
+                                    },
+                                    "text": "Otto",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.79"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 81,
+                                        "max": 81
+                                    },
+                                    "text": "Patrick",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.80"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 82,
+                                        "max": 82
+                                    },
+                                    "text": "Paul",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.81"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 83,
+                                        "max": 83
+                                    },
+                                    "text": "Pedro",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.82"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 84,
+                                        "max": 84
+                                    },
+                                    "text": "Peter",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.83"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 85,
+                                        "max": 85
+                                    },
+                                    "text": "Philip",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.84"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 86,
+                                        "max": 86
+                                    },
+                                    "text": "Ralph",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.85"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 87,
+                                        "max": 87
+                                    },
+                                    "text": "Ray",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.86"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 88,
+                                        "max": 88
+                                    },
+                                    "text": "Raymond",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.87"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 89,
+                                        "max": 89
+                                    },
+                                    "text": "Richard",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.88"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 90,
+                                        "max": 90
+                                    },
+                                    "text": "Robert",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.89"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 91,
+                                        "max": 91
+                                    },
+                                    "text": "Roy",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.90"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 92,
+                                        "max": 92
+                                    },
+                                    "text": "Samuel",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.91"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 93,
+                                        "max": 93
+                                    },
+                                    "text": "Sidney",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.92"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 94,
+                                        "max": 94
+                                    },
+                                    "text": "Stephen",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.93"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 95,
+                                        "max": 95
+                                    },
+                                    "text": "Theodore",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.94"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 96,
+                                        "max": 96
+                                    },
+                                    "text": "Thomas",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.95"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 97,
+                                        "max": 97
+                                    },
+                                    "text": "Tom",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.96"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 98,
+                                        "max": 98
+                                    },
+                                    "text": "Walter",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.97"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 99,
+                                        "max": 99
+                                    },
+                                    "text": "Warren",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.98"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 100,
+                                        "max": 100
+                                    },
+                                    "text": "William",
+                                    "_id": "oracle_rollable.row:badlands/name/badlander/b.99"
+                                }
+                            ]
+                        },
+                        "c": {
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 9
+                            },
+                            "canonical_name": "ORACLE 13c: BADLANDER NAMES - SURNAMES",
+                            "name": "Table C",
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "dice":"1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_id": "oracle_rollable:badlands/name/badlander/c",
+                            "rows": [
+                                {
+                                    "roll": {
+                                        "min": 1,
+                                        "max": 1
+                                    },
+                                    "text": "Adams",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.0"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 2,
+                                        "max": 2
+                                    },
+                                    "text": "Alexander",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.1"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 3,
+                                        "max": 3
+                                    },
+                                    "text": "Allen",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.2"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 4,
+                                        "max": 4
+                                    },
+                                    "text": "Anderson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.3"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 5,
+                                        "max": 5
+                                    },
+                                    "text": "Bailey",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.4"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 6,
+                                        "max": 6
+                                    },
+                                    "text": "Baker",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.5"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 7,
+                                        "max": 7
+                                    },
+                                    "text": "Barnes",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.6"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 8,
+                                        "max": 8
+                                    },
+                                    "text": "Bell",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.7"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 9,
+                                        "max": 9
+                                    },
+                                    "text": "Bennett",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.8"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 10,
+                                        "max": 10
+                                    },
+                                    "text": "Brooks",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.9"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 11,
+                                        "max": 11
+                                    },
+                                    "text": "Brown",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.10"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 12,
+                                        "max": 12
+                                    },
+                                    "text": "Bryant",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.11"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 13,
+                                        "max": 13
+                                    },
+                                    "text": "Butler",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.12"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 14,
+                                        "max": 14
+                                    },
+                                    "text": "Campbell",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.13"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 15,
+                                        "max": 15
+                                    },
+                                    "text": "Carter",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.14"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 16,
+                                        "max": 16
+                                    },
+                                    "text": "Clark",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.15"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 17,
+                                        "max": 17
+                                    },
+                                    "text": "Coleman",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.16"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 18,
+                                        "max": 18
+                                    },
+                                    "text": "Collins",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.17"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 19,
+                                        "max": 19
+                                    },
+                                    "text": "Cook",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.18"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 20,
+                                        "max": 20
+                                    },
+                                    "text": "Cooper",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.19"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 21,
+                                        "max": 21
+                                    },
+                                    "text": "Cox",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.20"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 22,
+                                        "max": 22
+                                    },
+                                    "text": "Davis",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.21"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 23,
+                                        "max": 23
+                                    },
+                                    "text": "Diaz",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.22"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 24,
+                                        "max": 24
+                                    },
+                                    "text": "Edwards",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.23"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 25,
+                                        "max": 25
+                                    },
+                                    "text": "Evans",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.24"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 26,
+                                        "max": 26
+                                    },
+                                    "text": "Flores",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.25"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 27,
+                                        "max": 27
+                                    },
+                                    "text": "Foster",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.26"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 28,
+                                        "max": 28
+                                    },
+                                    "text": "Garcia",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.27"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 29,
+                                        "max": 29
+                                    },
+                                    "text": "Gonzales",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.28"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 30,
+                                        "max": 30
+                                    },
+                                    "text": "Gonzalez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.29"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 31,
+                                        "max": 31
+                                    },
+                                    "text": "Gray",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.30"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 32,
+                                        "max": 32
+                                    },
+                                    "text": "Green",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.31"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 33,
+                                        "max": 33
+                                    },
+                                    "text": "Griffin",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.32"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 34,
+                                        "max": 34
+                                    },
+                                    "text": "Hall",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.33"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 35,
+                                        "max": 35
+                                    },
+                                    "text": "Harris",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.34"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 36,
+                                        "max": 36
+                                    },
+                                    "text": "Hayes",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.35"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 37,
+                                        "max": 37
+                                    },
+                                    "text": "Henderson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.36"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 38,
+                                        "max": 38
+                                    },
+                                    "text": "Hernandez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.37"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 39,
+                                        "max": 39
+                                    },
+                                    "text": "Hill",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.38"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 40,
+                                        "max": 40
+                                    },
+                                    "text": "Howard",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.39"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 41,
+                                        "max": 41
+                                    },
+                                    "text": "Hughes",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.40"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 42,
+                                        "max": 42
+                                    },
+                                    "text": "Jackson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.41"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 43,
+                                        "max": 43
+                                    },
+                                    "text": "James",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.42"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 44,
+                                        "max": 44
+                                    },
+                                    "text": "Jenkins",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.43"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 45,
+                                        "max": 45
+                                    },
+                                    "text": "Johnson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.44"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 46,
+                                        "max": 46
+                                    },
+                                    "text": "Jones",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.45"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 47,
+                                        "max": 47
+                                    },
+                                    "text": "Kelly",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.46"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 48,
+                                        "max": 48
+                                    },
+                                    "text": "King",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.47"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 49,
+                                        "max": 49
+                                    },
+                                    "text": "Lee",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.48"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 50,
+                                        "max": 50
+                                    },
+                                    "text": "Lewis",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.49"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 51,
+                                        "max": 51
+                                    },
+                                    "text": "Long",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.50"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 52,
+                                        "max": 52
+                                    },
+                                    "text": "Lopez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.51"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 53,
+                                        "max": 53
+                                    },
+                                    "text": "Martin",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.52"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 54,
+                                        "max": 54
+                                    },
+                                    "text": "Martinez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.53"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 55,
+                                        "max": 55
+                                    },
+                                    "text": "Miller",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.54"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 56,
+                                        "max": 56
+                                    },
+                                    "text": "Mitchell",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.55"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 57,
+                                        "max": 57
+                                    },
+                                    "text": "Moore",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.56"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 58,
+                                        "max": 58
+                                    },
+                                    "text": "Morgan",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.57"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 59,
+                                        "max": 59
+                                    },
+                                    "text": "Morris",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.58"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 60,
+                                        "max": 60
+                                    },
+                                    "text": "Murphy",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.59"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 61,
+                                        "max": 61
+                                    },
+                                    "text": "Nelson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.60"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 62,
+                                        "max": 62
+                                    },
+                                    "text": "Parker",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.61"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 63,
+                                        "max": 63
+                                    },
+                                    "text": "Patterson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.62"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 64,
+                                        "max": 64
+                                    },
+                                    "text": "Perez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.63"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 65,
+                                        "max": 65
+                                    },
+                                    "text": "Perry",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.64"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 66,
+                                        "max": 66
+                                    },
+                                    "text": "Peterson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.65"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 67,
+                                        "max": 67
+                                    },
+                                    "text": "Phillips",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.66"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 68,
+                                        "max": 68
+                                    },
+                                    "text": "Powell",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.67"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 69,
+                                        "max": 69
+                                    },
+                                    "text": "Price",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.68"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 70,
+                                        "max": 70
+                                    },
+                                    "text": "Ramirez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.69"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 71,
+                                        "max": 71
+                                    },
+                                    "text": "Reed",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.70"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 72,
+                                        "max": 72
+                                    },
+                                    "text": "Richardson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.71"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 73,
+                                        "max": 73
+                                    },
+                                    "text": "Rivera",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.72"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 74,
+                                        "max": 74
+                                    },
+                                    "text": "Roberts",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.73"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 75,
+                                        "max": 75
+                                    },
+                                    "text": "Robinson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.74"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 76,
+                                        "max": 76
+                                    },
+                                    "text": "Rodriguez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.75"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 77,
+                                        "max": 77
+                                    },
+                                    "text": "Rogers",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.76"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 78,
+                                        "max": 78
+                                    },
+                                    "text": "Ross",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.77"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 79,
+                                        "max": 79
+                                    },
+                                    "text": "Russell",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.78"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 80,
+                                        "max": 80
+                                    },
+                                    "text": "Sanchez",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.79"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 81,
+                                        "max": 81
+                                    },
+                                    "text": "Sanders",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.80"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 82,
+                                        "max": 82
+                                    },
+                                    "text": "Scott",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.81"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 83,
+                                        "max": 83
+                                    },
+                                    "text": "Simmons",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.82"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 84,
+                                        "max": 84
+                                    },
+                                    "text": "Smith",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.83"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 85,
+                                        "max": 85
+                                    },
+                                    "text": "Stewart",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.84"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 86,
+                                        "max": 86
+                                    },
+                                    "text": "Taylor",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.85"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 87,
+                                        "max": 87
+                                    },
+                                    "text": "Thomas",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.86"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 88,
+                                        "max": 88
+                                    },
+                                    "text": "Thompson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.87"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 89,
+                                        "max": 89
+                                    },
+                                    "text": "Torres",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.88"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 90,
+                                        "max": 90
+                                    },
+                                    "text": "Turner",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.89"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 91,
+                                        "max": 91
+                                    },
+                                    "text": "Walker",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.90"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 92,
+                                        "max": 92
+                                    },
+                                    "text": "Ward",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.91"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 93,
+                                        "max": 93
+                                    },
+                                    "text": "Washington",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.92"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 94,
+                                        "max": 94
+                                    },
+                                    "text": "Watson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.93"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 95,
+                                        "max": 95
+                                    },
+                                    "text": "White",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.94"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 96,
+                                        "max": 96
+                                    },
+                                    "text": "Williams",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.95"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 97,
+                                        "max": 97
+                                    },
+                                    "text": "Wilson",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.96"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 98,
+                                        "max": 98
+                                    },
+                                    "text": "Wood",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.97"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 99,
+                                        "max": 99
+                                    },
+                                    "text": "Wright",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.98"
+                                },
+                                {
+                                    "roll": {
+                                        "min": 100,
+                                        "max": 100
+                                    },
+                                    "text": "Young",
+                                    "_id": "oracle_rollable.row:badlands/name/surname/c.99"
+                                }
+                            ]
+                        },
+                        "d": {
+                            "_source": {
+                                "authors": [
+                                    {
+                                        "name": "Keith Stetson"
+                                    }
+                                ],
+                                "license": "https://creativecommons.org/licenses/by/4.0",
+                                "title": "Badlands Supplement",
+                                "date": "2020-07-22",
+                                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                                "page": 9
+                            },
+                            "canonical_name": "ORACLE 13d: BADLANDER NAMES - NICKNAMES",
+                            "name": "Table D",
+                            "oracle_type": "table_text",
+                            "type": "oracle_rollable",
+                            "dice":"1d100",
+                            "column_labels": {
+                                "roll": "Roll",
+                                "text": "Result"
+                            },
+                            "_id": "oracle_rollable:badlands/name/badlander/d",
+                            "rows": [
+                                {
+                                "roll": {
+                                    "min": 1,
+                                    "max": 1
+                                },
+                                "text": "Ace",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.0"
+                            },
+                            {
+                                "roll": {
+                                    "min": 2,
+                                    "max": 2
+                                },
+                                "text": "Angel",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.1"
+                            },
+                            {
+                                "roll": {
+                                    "min": 3,
+                                    "max": 3
+                                },
+                                "text": "Bad",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.2"
+                            },
+                            {
+                                "roll": {
+                                    "min": 4,
+                                    "max": 4
+                                },
+                                "text": "Baldy",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.3"
+                            },
+                            {
+                                "roll": {
+                                    "min": 5,
+                                    "max": 5
+                                },
+                                "text": "Bandit",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.4"
+                            },
+                            {
+                                "roll": {
+                                    "min": 6,
+                                    "max": 6
+                                },
+                                "text": "Barron",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.5"
+                            },
+                            {
+                                "roll": {
+                                    "min": 7,
+                                    "max": 7
+                                },
+                                "text": "Bear",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.6"
+                            },
+                            {
+                                "roll": {
+                                    "min": 8,
+                                    "max": 8
+                                },
+                                "text": "Big",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.7"
+                            },
+                            {
+                                "roll": {
+                                    "min": 9,
+                                    "max": 9
+                                },
+                                "text": "Big Nose",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.8"
+                            },
+                            {
+                                "roll": {
+                                    "min": 10,
+                                    "max": 10
+                                },
+                                "text": "Black",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.9"
+                            },
+                            {
+                                "roll": {
+                                    "min": 11,
+                                    "max": 11
+                                },
+                                "text": "Boss",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.10"
+                            },
+                            {
+                                "roll": {
+                                    "min": 12,
+                                    "max": 12
+                                },
+                                "text": "Boulder",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.11"
+                            },
+                            {
+                                "roll": {
+                                    "min": 13,
+                                    "max": 13
+                                },
+                                "text": "Bronco",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.12"
+                            },
+                            {
+                                "roll": {
+                                    "min": 14,
+                                    "max": 14
+                                },
+                                "text": "Bull",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.13"
+                            },
+                            {
+                                "roll": {
+                                    "min": 15,
+                                    "max": 15
+                                },
+                                "text": "Bullettooth",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.14"
+                            },
+                            {
+                                "roll": {
+                                    "min": 16,
+                                    "max": 16
+                                },
+                                "text": "Captain",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.15"
+                            },
+                            {
+                                "roll": {
+                                    "min": 17,
+                                    "max": 17
+                                },
+                                "text": "Catus",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.16"
+                            },
+                            {
+                                "roll": {
+                                    "min": 18,
+                                    "max": 18
+                                },
+                                "text": "Charro / a",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.17"
+                            },
+                            {
+                                "roll": {
+                                    "min": 19,
+                                    "max": 19
+                                },
+                                "text": "Chiquito / a",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.18"
+                            },
+                            {
+                                "roll": {
+                                    "min": 20,
+                                    "max": 20
+                                },
+                                "text": "[City Name]",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.19"
+                            },
+                            {
+                                "roll": {
+                                    "min": 21,
+                                    "max": 21
+                                },
+                                "text": "Cock-Eyed",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.20"
+                            },
+                            {
+                                "roll": {
+                                    "min": 22,
+                                    "max": 22
+                                },
+                                "text": "Cookie",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.21"
+                            },
+                            {
+                                "roll": {
+                                    "min": 23,
+                                    "max": 23
+                                },
+                                "text": "Curly",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.22"
+                            },
+                            {
+                                "roll": {
+                                    "min": 24,
+                                    "max": 24
+                                },
+                                "text": "Damned",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.23"
+                            },
+                            {
+                                "roll": {
+                                    "min": 25,
+                                    "max": 25
+                                },
+                                "text": "Dash",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.24"
+                            },
+                            {
+                                "roll": {
+                                    "min": 26,
+                                    "max": 26
+                                },
+                                "text": "Deaf",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.25"
+                            },
+                            {
+                                "roll": {
+                                    "min": 27,
+                                    "max": 27
+                                },
+                                "text": "Deuce",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.26"
+                            },
+                            {
+                                "roll": {
+                                    "min": 28,
+                                    "max": 28
+                                },
+                                "text": "Diamond",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.27"
+                            },
+                            {
+                                "roll": {
+                                    "min": 29,
+                                    "max": 29
+                                },
+                                "text": "Dirty",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.28"
+                            },
+                            {
+                                "roll": {
+                                    "min": 30,
+                                    "max": 30
+                                },
+                                "text": "Doc",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.29"
+                            },
+                            {
+                                "roll": {
+                                    "min": 31,
+                                    "max": 31
+                                },
+                                "text": "Drag",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.30"
+                            },
+                            {
+                                "roll": {
+                                    "min": 32,
+                                    "max": 32
+                                },
+                                "text": "Dusty",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.31"
+                            },
+                            {
+                                "roll": {
+                                    "min": 33,
+                                    "max": 33
+                                },
+                                "text": "Dutch",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.32"
+                            },
+                            {
+                                "roll": {
+                                    "min": 34,
+                                    "max": 34
+                                },
+                                "text": "Dynamite",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.33"
+                            },
+                            {
+                                "roll": {
+                                    "min": 35,
+                                    "max": 35
+                                },
+                                "text": "Earl",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.34"
+                            },
+                            {
+                                "roll": {
+                                    "min": 36,
+                                    "max": 36
+                                },
+                                "text": "English",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.35"
+                            },
+                            {
+                                "roll": {
+                                    "min": 37,
+                                    "max": 37
+                                },
+                                "text": "Flaco / a",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.36"
+                            },
+                            {
+                                "roll": {
+                                    "min": 38,
+                                    "max": 38
+                                },
+                                "text": "Gordo / a",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.37"
+                            },
+                            {
+                                "roll": {
+                                    "min": 39,
+                                    "max": 39
+                                },
+                                "text": "Gorgeous",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.38"
+                            },
+                            {
+                                "roll": {
+                                    "min": 40,
+                                    "max": 40
+                                },
+                                "text": "Gravedigger",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.39"
+                            },
+                            {
+                                "roll": {
+                                    "min": 41,
+                                    "max": 41
+                                },
+                                "text": "Greenie",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.40"
+                            },
+                            {
+                                "roll": {
+                                    "min": 42,
+                                    "max": 42
+                                },
+                                "text": "Handsome",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.41"
+                            },
+                            {
+                                "roll": {
+                                    "min": 43,
+                                    "max": 43
+                                },
+                                "text": "Happy",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.42"
+                            },
+                            {
+                                "roll": {
+                                    "min": 44,
+                                    "max": 44
+                                },
+                                "text": "Hard Case",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.43"
+                            },
+                            {
+                                "roll": {
+                                    "min": 45,
+                                    "max": 45
+                                },
+                                "text": "Hard Luck",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.44"
+                            },
+                            {
+                                "roll": {
+                                    "min": 46,
+                                    "max": 46
+                                },
+                                "text": "Hawk",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.45"
+                            },
+                            {
+                                "roll": {
+                                    "min": 47,
+                                    "max": 47
+                                },
+                                "text": "Holdout",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.46"
+                            },
+                            {
+                                "roll": {
+                                    "min": 48,
+                                    "max": 48
+                                },
+                                "text": "Hollow",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.47"
+                            },
+                            {
+                                "roll": {
+                                    "min": 49,
+                                    "max": 49
+                                },
+                                "text": "Hoodlum",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.48"
+                            },
+                            {
+                                "roll": {
+                                    "min": 50,
+                                    "max": 50
+                                },
+                                "text": "Hoodoo",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.49"
+                            }
+                            {
+                                "roll": {
+                                    "min": 51,
+                                    "max": 51
+                                },
+                                "text": "Hopalong",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.50"
+                            },
+                            {
+                                "roll": {
+                                    "min": 52,
+                                    "max": 52
+                                },
+                                "text": "the Kid",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.51"
+                            },
+                            {
+                                "roll": {
+                                    "min": 53,
+                                    "max": 53
+                                },
+                                "text": "Killer",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.52"
+                            },
+                            {
+                                "roll": {
+                                    "min": 54,
+                                    "max": 54
+                                },
+                                "text": "King",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.53"
+                            },
+                            {
+                                "roll": {
+                                    "min": 55,
+                                    "max": 55
+                                },
+                                "text": "Lame",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.54"
+                            },
+                            {
+                                "roll": {
+                                    "min": 56,
+                                    "max": 56
+                                },
+                                "text": "Laughing",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.55"
+                            },
+                            {
+                                "roll": {
+                                    "min": 57,
+                                    "max": 57
+                                },
+                                "text": "Little",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.56"
+                            },
+                            {
+                                "roll": {
+                                    "min": 58,
+                                    "max": 58
+                                },
+                                "text": "Liver-eating",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.57"
+                            },
+                            {
+                                "roll": {
+                                    "min": 59,
+                                    "max": 59
+                                },
+                                "text": "Longhair",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.58"
+                            },
+                            {
+                                "roll": {
+                                    "min": 60,
+                                    "max": 60
+                                },
+                                "text": "Loop Garou",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.59"
+                            },
+                            {
+                                "roll": {
+                                    "min": 61,
+                                    "max": 61
+                                },
+                                "text": "Lucky",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.60"
+                            },
+                            {
+                                "roll": {
+                                    "min": 62,
+                                    "max": 62
+                                },
+                                "text": "Mad Dog",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.61"
+                            },
+                            {
+                                "roll": {
+                                    "min": 63,
+                                    "max": 63
+                                },
+                                "text": "Magic",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.62"
+                            },
+                            {
+                                "roll": {
+                                    "min": 64,
+                                    "max": 64
+                                },
+                                "text": "Mysterious",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.63"
+                            },
+                            {
+                                "roll": {
+                                    "min": 65,
+                                    "max": 65
+                                },
+                                "text": "One-legged",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.64"
+                            },
+                            {
+                                "roll": {
+                                    "min": 66,
+                                    "max": 66
+                                },
+                                "text": "Outlaw",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.65"
+                            },
+                            {
+                                "roll": {
+                                    "min": 67,
+                                    "max": 67
+                                },
+                                "text": "Pistol",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.66"
+                            },
+                            {
+                                "roll": {
+                                    "min": 68,
+                                    "max": 68
+                                },
+                                "text": "Plug",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.67"
+                            },
+                            {
+                                "roll": {
+                                    "min": 69,
+                                    "max": 69
+                                },
+                                "text": "Pony",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.68"
+                            },
+                            {
+                                "roll": {
+                                    "min": 70,
+                                    "max": 70
+                                },
+                                "text": "Preacher",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.69"
+                            },
+                            {
+                                "roll": {
+                                    "min": 71,
+                                    "max": 71
+                                },
+                                "text": "Queen",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.70"
+                            },
+                            {
+                                "roll": {
+                                    "min": 72,
+                                    "max": 72
+                                },
+                                "text": "Ragged",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.71"
+                            },
+                            {
+                                "roll": {
+                                    "min": 73,
+                                    "max": 73
+                                },
+                                "text": "Ranny",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.72"
+                            },
+                            {
+                                "roll": {
+                                    "min": 74,
+                                    "max": 74
+                                },
+                                "text": "Rattlesnake",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.73"
+                            },
+                            {
+                                "roll": {
+                                    "min": 75,
+                                    "max": 75
+                                },
+                                "text": "Red",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.74"
+                            },
+                            {
+                                "roll": {
+                                    "min": 76,
+                                    "max": 76
+                                },
+                                "text": "Rose",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.75"
+                            },
+                            {
+                                "roll": {
+                                    "min": 77,
+                                    "max": 77
+                                },
+                                "text": "Rosin Jaw",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.76"
+                            },
+                            {
+                                "roll": {
+                                    "min": 78,
+                                    "max": 78
+                                },
+                                "text": "Sawed Off",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.77"
+                            },
+                            {
+                                "roll": {
+                                    "min": 79,
+                                    "max": 79
+                                },
+                                "text": "Six-gun",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.78"
+                            },
+                            {
+                                "roll": {
+                                    "min": 80,
+                                    "max": 80
+                                },
+                                "text": "Slim",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.79"
+                            },
+                            {
+                                "roll": {
+                                    "min": 81,
+                                    "max": 81
+                                },
+                                "text": "Smiling",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.80"
+                            },
+                            {
+                                "roll": {
+                                    "min": 82,
+                                    "max": 82
+                                },
+                                "text": "Snake Eyes",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.81"
+                            },
+                            {
+                                "roll": {
+                                    "min": 83,
+                                    "max": 83
+                                },
+                                "text": "Snake-bit",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.82"
+                            },
+                            {
+                                "roll": {
+                                    "min": 84,
+                                    "max": 84
+                                },
+                                "text": "Speedy",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.83"
+                            },
+                            {
+                                "roll": {
+                                    "min": 85,
+                                    "max": 85
+                                },
+                                "text": "Splay Foot",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.84"
+                            },
+                            {
+                                "roll": {
+                                    "min": 86,
+                                    "max": 86
+                                },
+                                "text": "[State Name]",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.85"
+                            },
+                            {
+                                "roll": {
+                                    "min": 87,
+                                    "max": 87
+                                },
+                                "text": "Stretch",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.86"
+                            },
+                            {
+                                "roll": {
+                                    "min": 88,
+                                    "max": 88
+                                },
+                                "text": "Stuttering",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.87"
+                            },
+                            {
+                                "roll": {
+                                    "min": 89,
+                                    "max": 89
+                                },
+                                "text": "Swede",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.88"
+                            },
+                            {
+                                "roll": {
+                                    "min": 90,
+                                    "max": 90
+                                },
+                                "text": "Tall",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.89"
+                            },
+                            {
+                                "roll": {
+                                    "min": 91,
+                                    "max": 91
+                                },
+                                "text": "Three-finger",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.90"
+                            },
+                            {
+                                "roll": {
+                                    "min": 92,
+                                    "max": 92
+                                },
+                                "text": "Tiger",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.91"
+                            },
+                            {
+                                "roll": {
+                                    "min": 93,
+                                    "max": 93
+                                },
+                                "text": "Tinhorn",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.92"
+                            },
+                            {
+                                "roll": {
+                                    "min": 94,
+                                    "max": 94
+                                },
+                                "text": "Toothless",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.93"
+                            },
+                            {
+                                "roll": {
+                                    "min": 95,
+                                    "max": 95
+                                },
+                                "text": "Trapper",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.94"
+                            },
+                            {
+                                "roll": {
+                                    "min": 96,
+                                    "max": 96
+                                },
+                                "text": "Ugly",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.95"
+                            },
+                            {
+                                "roll": {
+                                    "min": 97,
+                                    "max": 97
+                                },
+                                "text": "Waddy",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.96"
+                            },
+                            {
+                                "roll": {
+                                    "min": 98,
+                                    "max": 98
+                                },
+                                "text": "Whiskey",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.97"
+                            },
+                            {
+                                "roll": {
+                                    "min": 99,
+                                    "max": 99
+                                },
+                                "text": "Wild",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.98"
+                            },
+                            {
+                                "roll": {
+                                    "min": 100,
+                                    "max": 100
+                                },
+                                "text": "Wildcat",
+                                "_id": "oracle_rollable.row:badlands/name/nickname/d.99"
+                            }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "place":{},
+        "settlement": {},
+        "turning_point": {}
+    },
     "moves":{
         "adventure": {
             "name": "Badlands Adventure Moves",
