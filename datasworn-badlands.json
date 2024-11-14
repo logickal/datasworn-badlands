@@ -1923,7 +1923,276 @@
                     "_id":"asset:badlands/path/marshal"
                 }
 			}
-		}
+		},
+        "companion": {
+            "name": "Companion Assets",
+            "type": "asset_collection",
+            "description": "Companion assets for the Badlands setting",
+            "collections": {},
+            "_id": "asset_collection:badlands/companion",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 2
+            },
+            "contents": {
+                "bear_cub": {
+                    "type": "asset",
+                    "category": "Companion",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 2
+                    },
+                    "name": "Bear Cub",
+                    "options": {
+                        "name": {
+                            "label": "Name",
+                            "field_type": "text",
+                            "value": null
+                        }
+                    },
+                    "requirement": "Your bear cub is fiercely protective.",
+                    "abilities": [
+                        {
+                            "name": "Defensive",
+                            "text": "When you [Endure Harm](datasworn:move:classic/suffer/endure_harm) from an enemy assault, you may choose to suffer -1 momentum to have your bear cub inflict 1 harm on your assailant.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": ["move:classic/suffer/endure_harm"],
+                                    "roll_type": "action_roll",
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "from an enemy assault",
+                                                "roll_options": null,
+                                                "method": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/companion/bear_cub.0"
+                        },
+                        {
+                            "name": "Alert",
+                            "text": "You can't be ambushed and may roll +your bear cub's health (instead of +wits) when you [Enter The Fray](datasworn:move:classic/combat/enter_the_fray).",
+                            "enhance_moves": [
+                                {
+                                    "enhances": ["move:classic/combat/enter_the_fray"],
+                                    "roll_type": "action_roll",
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "method": "player_choice",
+                                                "roll_options": [
+                                                    {
+                                                        "using": "asset_control",
+                                                        "assets": null,
+                                                        "control": "health"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/companion/bear_cub.1"
+                        },
+                        {
+                            "name": "Protective",
+                            "text": "When you [Make Camp](datasworn:move:classic/adventure/make_camp), your bear cub is alert to trouble. If you or an ally choose to relax, take +1 spirit. If you focus, take +1 momentum.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": ["move:classic/adventure/make_camp"],
+                                    "roll_type": "action_roll"
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/companion/bear_cub.2"
+                        }
+                    ],
+					"controls": {
+						"health": {
+							"field_type": "condition_meter",
+							"label": "health",
+							"moves": {
+								"suffer": ["move:classic/suffer/companion_endure_harm"],
+								"recover": [
+									"move:classic/adventure/heal",
+									"move:classic/adventure/make_camp",
+									"move:classic/relationship/sojourn"
+								]
+							},
+							"max": 4,
+							"value": 4,
+							"rollable": true,
+							"min": 0,
+							"controls": {}
+						}
+					},                    "count_as_impact": false,
+                    "shared": false,
+                    "_id": "asset:badlands/companion/bear_cub"
+                },
+                "coyote": {
+                    "type": "asset",
+                    "category": "Companion",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 2
+                    },
+                    "name": "Coyote",
+                    "options": {
+                        "name": {
+                            "label": "Name",
+                            "field_type": "text",
+                            "value": null
+                        }
+                    },
+
+                    "requirement": "Your coyote walks between worlds.",
+                    "abilities": [
+                        {
+                            "name": "Planeswalker",
+                            "text": "When you step in the footsteps of your coyote, you may travel along the hidden paths of the shadow realms to [Undertake a Journey](datasworn:move:classic/adventure/undertake_a_journey) using +shadow (instead of +wits). If you do, Endure Stress (1 stress) and mark one extra unit of progress on a strong hit.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": ["move:classic/adventure/undertake_a_journey"],
+                                    "roll_type": "action_roll",
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "travel along the hidden paths of the shadow realms",
+                                                "method": "player_choice",
+                                                "roll_options": [
+                                                    {
+                                                        "using": "stat",
+                                                        "stat": "shadow"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }        
+                                }           
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/companion/coyote.0"
+                        },
+                        {
+                            "name": "Transcendental",
+                            "text": "Add the trigger “When you detect otherworldly essences, present or past to [Gather Information](datasworn:move:classic/adventure/gather_information). When you do so, roll +shadow or +your coyote’s health, whichever is higher. Add +1 if you have a bond with your coyote.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": ["move:classic/adventure/gather_information"],
+                                    "roll_type": "action_roll",
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "text": "detect otherworldly essences, present or past",
+                                                "method": "player_choice",
+                                                "roll_options": [
+                                                    {
+                                                        "using": "stat",
+                                                        "stat": "shadow"
+                                                    },
+                                                    {
+                                                        "using": "asset_control",
+                                                        "assets": null,
+                                                        "control": "health"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }   
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/companion/coyote.1"
+                        },
+                        {
+                            "name": "Fated",
+                            "text": "When you [Ask the Oracle](datasworn:move:classic/fate/ask_the_oracle) a yes/no question, move the odds one category towards the more beneficial outcome before rolling.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": ["move:classic/fate/ask_the_oracle"],
+                                    "roll_type": "action_roll"
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/companion/coyote.2"
+                        }
+                    ],
+                    "controls": {
+						"health": {
+							"field_type": "condition_meter",
+							"label": "health",
+							"moves": {
+								"suffer": ["move:classic/suffer/companion_endure_harm"],
+								"recover": [
+									"move:classic/adventure/heal",
+									"move:classic/adventure/make_camp",
+									"move:classic/relationship/sojourn"
+								]
+							},
+							"max": 3,
+							"value": 3,
+							"rollable": true,
+							"min": 0,
+							"controls": {}
+						}
+					},                    "count_as_impact": false,
+                    "shared": false,
+                    "_id": "asset:badlands/companion/coyote"                    
+                }
+            }
+        }
 	},
     "rules": {
         "stats": {},
