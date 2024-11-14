@@ -414,7 +414,102 @@
                     "shared": false,
                     "controls": {},
                     "_id": "asset:badlands/combat_talent/two_fisted"
-				}
+				},
+                "holdout_gunner": {
+                    "type": "asset",
+                    "category": "Combat Talent",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 15
+                    },
+                    "name": "Holdout Gunner",
+                    "requirement": "When you wield a Derringer or other pocket pistol, you are Out of Ammo on a 1 or 2, but when a foe searches you for weapons, your holdout pistol will remain hidden to them...",
+                    "options": {},
+                    "abilities": [
+                        {
+                            "text": "When you appear unarmed and [Enter the Fray](datasworn:move:classic/combat/enter_the_fray) +shadow, you may reroll any dice.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": [
+                                        "move:classic/combat/enter_the_fray"
+                                    ],
+                                    "roll_type": "action_roll",
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "method": "player_choice",
+                                                "text": "appear unarmed",
+                                                "roll_options": null
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "enabled": true,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/combat_talent/holdout_gunner.0"
+                        },
+                        {
+                            "text": "When you use the sudden threat of your pistol to [Compel](datasworn:move:classic/relationship/compel) with intimidation, add +1 and take +1 momentum on a hit.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": [
+                                        "move:classic/relationship/compel"
+                                    ],
+                                    "roll_type": "action_roll",
+                                    "trigger": {
+                                        "conditions": [
+                                            {
+                                                "method": "player_choice",
+                                                "text": "use the sudden threat of your pistol",
+                                                "roll_options": null
+                                            }
+                                        ]
+                                    }   
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/combat_talent/holdout_gunner.1"
+                        },
+                        {
+                            "text": "One in the boot, one up the sleeve: you carry two Derringers and are only [Out of Ammo](datasworn:move:classic/combat/out_of_ammo) on a roll of 1.",
+                            "enhance_moves": [
+                                {
+                                    "enhances": [
+                                        "move:classic/combat/out_of_ammo"
+                                    ],
+                                    "roll_type": "action_roll"
+                                }
+                            ],
+                            "enabled": false,
+                            "options": {},
+                            "controls": {},
+                            "oracles": {},
+                            "moves": {},
+                            "_id": "asset.ability:badlands/combat_talent/holdout_gunner.2"
+                        }
+                    ],
+                    "count_as_impact": false,
+                    "shared": false,
+                    "controls": {},
+                    "_id": "asset:badlands/combat_talent/holdout_gunner"
+                }
+
 			}	
 		},
 		"path": {
