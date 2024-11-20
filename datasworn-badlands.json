@@ -6314,7 +6314,8 @@
 						"text": "Result"
 					},
 					"_id": "oracle_rollable:badlands/settlement/name"
-				}
+				},
+                
             },
             "collections": {
                 "name": {
@@ -6913,6 +6914,241 @@
 
                 }
             }
+        },
+        "place": {
+            "name": "Place Oracles",
+            "type": "oracle_collection",
+            "_id": "oracle_collection:badlands/place",
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands",
+                "page": 10
+            },
+            "contents": {
+                "region": {
+                    "name": "Region",
+                    "canonical_name": "Oracle 3A: Region",
+                    "summary": "Use this oracle when you want to randomly select a region from the Badlands.",
+                    "oracle_type": "table_text",
+                    "type": "oracle_rollable",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 10
+                    },
+                    "_id": "oracle_rollable:badlands/place/region",
+                    "dice": "1d100",
+                    "column_labels": {
+                        "roll": "Roll",
+                        "text": "Result"
+                    },
+                    "rows": [
+                        {
+                            "roll": {
+                                "min": 1,
+                                "max": 12
+                            },
+                            "text": "[Tall Pines](datasworn:atlas_entry:badlands/place/tall_pines)",
+                            "_id": "oracle_rollable.row:badlands/place/region.0"
+                        },
+                        {
+                            "roll": {
+                                "min": 11,
+                                "max": 20
+                            },
+                            "text": "[Costa Dorada](datasworn:atlas_entry:badlands/place/costa_dorada)",
+                            "_id": "oracle_rollable.row:badlands/place/region.1"
+                        },
+                        {
+                            "roll": {
+                                "min": 21,
+                                "max": 30
+                            },
+                            "text": "[Mil Piedras](datasworn:atlas_entry:badlands/place/mil_piedras)",
+                            "_id": "oracle_rollable.row:badlands/place/region.2"
+                        },
+                        {
+                            "roll": {
+                                "min": 31,
+                                "max": 40
+                            },
+                            "text": "[Big Nothing](datasworn:atlas_entry:badlands/place/big_nothing)",
+                            "_id": "oracle_rollable.row:badlands/place/region.3"
+                        },
+                        {
+                            "roll": {
+                                "min": 41,
+                                "max": 50
+                            },
+                            "text": "[Lithic Mountains](datasworn:atlas_entry:badlands/place/lithic_mountains)",
+                            "_id": "oracle_rollable.row:badlands/place/region.4"
+                        },
+                        {
+                            "roll": {
+                                "min": 51,
+                                "max": 60
+                            },
+                            "text": "[High Plains](datasworn:atlas_entry:badlands/place/high_plains)",
+                            "_id": "oracle_rollable.row:badlands/place/region.5"
+                        },
+                        {
+                            "roll": {
+                                "min": 61,
+                                "max": 70
+                            },
+                            "text": "[The Swale](datasworn:atlas_entry:badlands/place/the_swale)",
+                            "_id": "oracle_rollable.row:badlands/place/region.6"
+                        },
+                        {
+                            "roll": {
+                                "min": 71,
+                                "max": 80
+                            },
+                            "text": "[Sea of Grass](datasworn:atlas_entry:badlands/place/sea_of_grass)",
+                            "_id": "oracle_rollable.row:badlands/place/region.7"
+                        },
+                        {
+                            "roll": {
+                                "min": 81,
+                                "max": 90
+                            },
+                            "text": "[The Big Muddy](datasworn:atlas_entry:badlands/place/the_big_muddy)",
+                            "_id": "oracle_rollable.row:badlands/place/region.8"
+                        },
+                        {
+                            "roll": {
+                                "min": 91,
+                                "max": 100
+                            },
+                            "text": "[Back East](datasworn:atlas_entry:badlands/place/back_east)",
+                            "_id": "oracle_rollable.row:badlands/place/region.9"
+                        }
+                    ]
+                }
+            },
+            "terrain": {
+                "name": "Terrain",
+                "canonical_name": "Oracle 3B: Terrain",
+                "summary": "Use this oracle when you want to randomly select a terrain type from the Badlands.",
+                "oracle_type": "table_text",
+                "type": "oracle_rollable",
+                "_source": {
+                    "authors": [
+                        {
+                            "name": "Keith Stetson"
+                        }
+                    ],
+                    "license": "https://creativecommons.org/licenses/by/4.0",
+                    "title": "Badlands Supplement",
+                    "date": "2020-07-22",
+                    "url": "https://kstetson.itch.io/ironsworn-badlands",
+                    "page": 10
+                },
+                "_id": "oracle_rollable:badlands/place/terrain",
+                "dice": "1d100",
+                "column_labels": {
+                    "roll": "Roll",
+                    "text": "Result"
+                },
+                "rows": [
+                    {
+                        "roll": {
+                            "min": 1,
+                            "max": 14
+                        },
+                        "text": "Prarie",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.0"
+                    },
+                    {
+                        "roll": {
+                            "min": 15,
+                            "max": 24
+                        },
+                        "text": "Forest",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.1"
+                    },
+                    {
+                        "roll": {
+                            "min": 25,
+                            "max": 34
+                        },
+                        "text": "Mountain",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.2"
+                    },
+                    {
+                        "roll": {
+                            "min": 35,
+                            "max": 49
+                        },
+                        "text": "Valley",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.3"
+                    },
+                    {
+                        "roll": {
+                            "min": 50,
+                            "max": 59
+                        },
+                        "text": "Butte",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.4"
+                    },
+                    {
+                        "roll": {
+                            "min": 60,
+                            "max": 69
+                        },
+                        "text": "Canyon",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.5"
+                    },
+                    {
+                        "roll": {
+                            "min": 70,
+                            "max": 84
+                        },
+                        "text": "Scrub",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.6"
+                    },
+                    {
+                        "roll": {
+                            "min": 85,
+                            "max": 92
+                        },
+                        "text": "Desert",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.7"
+                    },
+                    {
+                        "roll": {
+                            "min": 93,
+                            "max": 99
+                        },
+                        "text": "Water (river, lake, etc.)",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.8"
+                    },
+                    {
+                        "roll": {
+                            "min": 100,
+                            "max": 100
+                        },
+                        "text": "Elsewhere",
+                        "_id": "oracle_rollable.row:badlands/place/terrain.9"
+                    }
+                ]
+            },
+            "collections": {}
+
         }
     },
     "moves":{
@@ -7621,5 +7857,319 @@
             ]    
         }
 
+    },
+    "atlas": {
+        "badlands": {
+            "_source": {
+                "authors": [
+                    {
+                        "name": "Keith Stetson"
+                    }
+                ],
+                "license": "https://creativecommons.org/licenses/by/4.0",
+                "title": "Badlands Supplement",
+                "date": "2020-07-22",
+                "url": "https://kstetson.itch.io/ironsworn-badlands"
+            },
+            "name": "The Badlands",
+            "type": "atlas_collection",
+            "summary": "",
+            "_id": "atlas_collection:badlands/badlands",
+            "contents": {
+                "tall_pines": {
+                    "name": "Tall Pines",
+                    "type": "atlas_entry",
+                    "summary": "Forests of monumentally tall trees - pine and otherwise - blanket this region. Highlands, lowlands, slopes, and valleys all play host to vibrant green life of all sorts from moss to redwood.",
+                    "_id": "atlas_entry:badlands/badlands/tall_pines",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 18
+                    },
+                    "description": "The Tall Pines region is aptly named. Forests of monumentally tall trees - pine and otherwise - blanket this region. Highlands, lowlands, slopes, and valleys all play host to vibrant green life of all sorts from moss to redwood. Such a variety of flora supports a similar variety of fauna. Herbivores thrive here, which means so, too, do carnivores. The climate is moist and temperate, with warm winters and mild summers. Crops grow well here, but native plants grow better, and this makes Tall Pines the most lush and verdant region in the Badlands. Badlanders living in Tall Pines tend to focus their energies on nature’s bounty. Hunting, fishing, trapping, and forestry are lucrative activities.Such a bountiful land supports larger settlements, and all types of folks band together.", 
+                    "features": [
+                        "Hushed, humid air",
+                        "Colossal trees",
+                        "Soft blanket of leaves and debris",
+                        "The skittering of unseen animals",
+                        "Cacophonous birdsong",
+                        "Rich scent of growth and decay",
+                        "Well-organized permanent communities"
+                    ]
+                },
+                "costa_dorada": {
+                    "name": "Costa Dorada",
+                    "type": "atlas_entry",
+                    "summary": "The folks who make it this far west call Costa Dorada paradise, at least for a time. The beautiful sunlight gilds everything from the rolling grass-covered hills, to the stands of majestic trees, to the golden beaches and crystal clear waters. Hot, dry summers and mild, wet winters lend themselves toa profusion of life - animal, vegetable, and human.",
+                    "_id": "atlas_entry:badlands/badlands/costa_dorada",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 19
+                    },
+                    "description": "The folks who make it this far west call Costa Dorada paradise, at least for a time. The beautiful sunlight gilds everything from the rolling grass-covered hills, to the stands of majestic trees, to the golden beaches and crystalclear waters. Hot, dry summers and mild, wet winters lend themselves to a profusion of life - animal, vegetable, and human. The natural charms of Costa Dorada draw a crowd, and the more people who gather, the more likely that some of them are going to step out of line. Especially when there’s the promise of easy riches, and they do say there’s gold in them thar hills. Despite its location as on the western edge of the continent, Costa Dorada is one of the most populous regions and features the largest settlements in the Badlands. Folks here make theirlivings in just about every possible manner, both legal and not.", 
+                    "features": [
+                        "Warmth of radiant sunlight",
+                        "Crystalline waters",
+                        "The odor of blossoms on the breeze",
+                        "A plenitude of both flora and fauna",
+                        "Well-organized settlements",
+                        "All manner of entrepreneurs, legitimate and otherwise",
+                        "Cultures mixing and clashing",
+                        "Riches of all sorts and the dangers they bring"
+                    ]
+                },
+                "mil_piedras": {
+                    "name": "Mil Piedras",
+                    "type": "atlas_entry",
+                    "summary": "The stunning scenery that those Back East think of when they conjure up romantic images of the Badlands? That’s here in Mil Piedras.",
+                    "_id": "atlas_entry:badlands/badlands/mil_piedras",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 20
+                    },
+                    "description": "The stunning scenery that those Back East think of when they conjure up romantic images of the Badlands? That’s here in Mil Piedras. A vast and wild landscape stretches horizon to horizon, riven by deep canyons and dwarfed by towering buttes. Rock formations that seem carved by some giant hand rather than formed by nature bewilder even those that live here. Hot summers contrasted with cold winters cause much geologic activity. The region suffers long periods of drought, and short, intense periods of rains. Resources in Mil Piedras are not scarce, but they are hard to find, and Badlanders living here must be creative and clever. Most folks do a number of things to get by, such as herding, ranching, farming and foraging.", 
+                    "features": [
+                        "Awe-inspiring rock formations",
+                        "Rough, red earth",
+                        "Wide, blue sky arching overhead",
+                        "Every texture of rock",
+                        "Well-tended herds of sheep and cattle",
+                        "Sturdy houses couched against the wind",
+                        "The taste of grit on the wind"
+                    ]
+                },
+                "big_nothing": {
+                    "name": "Big Nothing",
+                    "type": "atlas_entry",
+                    "summary": "“Nothing,” might be hyperbolic, but when the average person scans the region, they don’t find much beckoning them here.",
+                    "_id": "atlas_entry:badlands/badlands/big_nothing",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 21
+                    },
+                    "description": "“Nothing,” might be hyperbolic, but when the average person scans the region, they don’t find much beckoning them here. Sun scoured sand is crossed by precious few animals and offers purchase for precious few plants. Those that do live here have evolved to be hardy, though not particularly nutritious for human beings. There’s next to no rain over the course of the year, and that which does fall tends to do so all at once, causing floods rather than nurturing. The temperature during the day could damn near boil water, and the temperature at night will definitely freeze it. Few Badlanders live any part of their lives in the Big Nothing, and those brave enough to dwell in this place are by necessity nomadic. What resources there are become exhausted easily, and those depending on them must move on to the next source. Folks out here aren’t so concerned with making money as with keeping living.", 
+                    "features": [
+                        "Merciless sun",
+                        "Featureless stretches of sand",
+                        "Twisted and gnarled cacti",
+                        "Opportunistic buzzards circle and wait",
+                        "Precious few oases",
+                        "A few grizzled travelers",
+                        "Mirages caused by the unrelenting heat",
+                        "Slight solace for those who know how to look"
+                    ]
+                },
+                "lithic_mountains": {
+                    "name": "Lithic Mountains",
+                    "type": "atlas_entry",
+                    "summary": "There are mountains Back East, but nothing like the Lithics. Rugged hills gradually grow in size, leading up to rugged peaks and jagged crags.",
+                    "_id": "atlas_entry:badlands/badlands/lithic_mountains",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 22
+                    },
+                    "description": "There are mountains Back East, but nothing like the Lithics. Rugged hills gradually grow in size, leading up to rugged peaks and jagged crags. When you stand at the base of the highest of the Lithics you can’t see the top, but if you could you’d see the snow there never melts. Weather changes rapidly at all elevations of the Lithics, and it’s a dangerous place in which to get caught out. Travel in the winter is not recommended, as some folks have found out the hard way. Badlanders living in this region are known for their self reliance. Settlements are rare, so folks who want to stay here have to learn to do things on their own. That said, the potential of gold and other precious resources hiding in the indomitable faces of the Lithics still manages to draw a sizable number of either brave or foolhardy settlers.",
+                    "features": [
+                        "Monumental rock faces",
+                        "Toothy crags and vertigo-inducing drops",
+                        "Swirling fogs",
+                        "Unpredictable precipitation",
+                        "Hardy flora and fauna",
+                        "Shockingly bright colors amidst a panoply of gray",
+                        "Rough hewn cabins in improbable places",
+                        "Well-hidden riches",
+                        "Rugged inhabitants"
+                    ]
+                },
+                "high_plains": {
+                    "name": "High Plains",
+                    "type": "atlas_entry",
+                    "summary": "The wind rules the High Plains.",
+                    "_id": "atlas_entry:badlands/badlands/high_plains",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 23
+                    },
+                    "description": "The wind rules the High Plains. In summer it offers the benediction of a gentle breeze; in winter, the scourge of its howling fury. It deigns to leave rich topsoil lying for the growth of nutritious crops, or it whips it away into the ether leaving nothing but scrub and sagebrush. Its gusting has shaped the High Plains, and the wind is conspicuous even in its absence, leaving an uneasy stillness that makes Badlanders tense for what it may do next. Some would call it respect and others fear, but every Badlander takes the wind into account. Houses are built against its wrath. Mills harness its strength. Fields are planted to inhibit its erosion or they are not fields for long. Every decision must be made with the wind in mind. Good, bad, or indifferent, it is a constant presence in the lives of Badlanders of the High Plains.",
+                    "features": [
+                        "Towering plateaus",
+                        "Unbroken expanses of rock",
+                        "Unceasing elevation",
+                        "Thin air that leaves outsiders gasping",
+                        "Well-adapted flora and fauna",
+                        "Beauty and desolation side by side",
+                        "Studies in contrast",
+                        "Stout, low-slung buildings",
+                        "The wind - always the wind"
+                    ]
+                },
+                "the_swale": {
+                    "name": "The Swale",
+                    "type": "atlas_entry",
+                    "summary": "Very little of the land in the Swale can be counted on to be land as such 365 days out of the year",
+                    "_id": "atlas_entry:badlands/badlands/the_swale",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 24
+                    },
+                    "description": "Very little of the land in the Swale can be counted on to be land as such 365 days out of the year. Rivers change their meandering course frequently, sudden bursts of rain can inundate any given region, and every body of water from the ocean on down is liable to flood out past its banks. All this water allows for riotous plant growth, and just about every surface in the Swale has some green on it. It also makes for powerful humidity, intensifying both the stultifying heat of summer and what little cold winter has to offer. Badlanders who live in the Swale have not only adapted themselves to survive in such an unstable environment, but to thrive. When the water that had claimed an area recedes, it leaves a trove of riches behind, including shrimp, fish and all type of man-made riches previously thought reclaimed by nature.",
+                    "features": [
+                        "Water, water everywhere",
+                        "Pervasive marine odor",
+                        "Copious plant life",
+                        "The squelch of mud",
+                        "Thick clouds of insects",
+                        "Ramshackle houses stradling water",
+                        "Bobbing buoys signaling underwater traps",
+                        "Rivers as roads, boats as stagecoaches"
+                    ]
+                },
+                "sea_of_grass": {
+                    "name": "The Swale",
+                    "type": "atlas_entry",
+                    "summary": "Undulating waves of green in every shade stretching from horizon to horizon as far as the eye can see.",
+                    "_id": "atlas_entry:badlands/badlands/sea_of_grass",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 25
+                    },
+                    "description": "Undulating waves of green in every shade stretching from horizon to horizon as far as the eye can see. It’s gorgeous until it becomes hypnotic,until you realize it’s never going to end. Those trying to traverse the Sea of Grass on foot have indeed gone mad at its never-ending sameness. Those who have approached it on its own terms have come to appreciate its bounty. Moderate temperatures and moderate rainfall make for great growing conditions - as the grass would attest - and also great grazing conditions. A whole ecosystem depends on the grass, from herds of wild bison on down to the tiniest insects. Ranchers also depend on the verdant greenery of the region. Grass makes hay, and hay feeds cattle, and so ranching and homesteading are the primary occupations in this region. Many folks heading west are more than content to set down roots in the same place that all that grass does.",
+                    "features": [
+                        "Every shade of green",
+                        "A long, low sky",
+                        "The unending susurration of the wind through grass",
+                        "Sturdy built houses jutting from the flat land",
+                        "Rich, black soil",
+                        "Practical people",
+                        "Well-fed herds, both tended and wild",
+                        "The rich odor of growth and decay"
+                    ]
+                },
+                "the_big_muddy": {
+                    "name": "The Big Muddy",
+                    "type": "atlas_entry",
+                    "summary": "The Big Muddy certainly is both. It’s over 2,000 miles long, not counting tributaries, and at points it’s so far across that the opposite shore is just a distant line.",
+                    "_id": "atlas_entry:badlands/badlands/the_big_muddy",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 26
+                    },
+                    "description": "The Big Muddy certainly is both. It’s over 2,000 miles long, not counting tributaries, and at points it’s so far across that the opposite shore is just a distant line. Its palette is every shade of brown and tan, and it carries over four hundred million tons of mud to the sea every year. Every native group whose lives have touched the river have their own name to capture its imposing grandeur, and almost all of them are more interesting than the Easterner’s sobriquet of Big Muddy - but guess who makes the maps? The river has had more courses than names, constantly jumping its banks and changing its run. But wherever it is, it’s the de facto border between East and West. It’s also its own liminal space, where the elements of East, West, and elsewhere mix freely and create a unique culture. The transient nature of the Big Muddy has influenced the character ofits people. The ability to just float down stream as needed has made it a haven for con men, corruption and counterfeiting. Of course, there are also legitimate businessmen, in addition to the “legitimate businessmen;” traders, travelers, fisherfolk and merchantsall ply the river.",
+                    "features": [
+                        "Complicated currents",
+                        "Unseen obstructions",
+                        "Power and beauty",
+                        "Islands of all sizes",
+                        "Hidden coves",
+                        "River pirates",
+                        "Folks living off as well as on the river",
+                        "Belching stacks of steamboats",
+                        "Leisure, pleasure and vice",
+                        "A bit of every other part of the Badlands"
+                    ]
+                },
+                "back_east": {
+                    "name": "Back East",
+                    "type": "atlas_entry",
+                    "summary": "Back East embodies everything our ancestors derided and left. Back East is the reason we’re Out West.",
+                    "_id": "atlas_entry:badlands/badlands/back_east",
+                    "_source": {
+                        "authors": [
+                            {
+                                "name": "Keith Stetson"
+                            }
+                        ],
+                        "license": "https://creativecommons.org/licenses/by/4.0",
+                        "title": "Badlands Supplement",
+                        "date": "2020-07-22",
+                        "url": "https://kstetson.itch.io/ironsworn-badlands",
+                        "page": 27
+                    },
+                    "description": "Back East being on the map is a bit of a formality. It’s the place to show you where not to go. Why would you? Back East embodies everything our ancestors derided and left. Back East is the reason we’re Out West. It’s filled with cities and pollution and fashion and politics. You’d better have a damn good reason for heading here. You’ll be as out of place there as they would be here. People Back East either make their living by exploiting others or by being so exploited. Because other folks grow their feed and protect their land hundreds or thousands of them can have such outlandish occupations as “financier” or “alderman.” The whole enterprise is quite offputting. Why would you want to go here?",
+                    "features": [
+                        "Bunch of haughty tinhorns",
+                        "New fangled doodads and whatsits",
+                        "Pollution, congestion, and noise",
+                        "Ostentatiously tall buildings",
+                        "Fashion and other foolish-ness",
+                        "“Civilization”",
+                        "Odicous responsibilities",
+                        "All sorts of people living cheeck to jowl"
+                    ]
+                }
+            },
+            "collections": {}
+        }
     }
 }
